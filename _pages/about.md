@@ -80,6 +80,8 @@ on Computer Vision (ICCV 2023).
 <a href="https://github.com/Lin-Yijie/Graph-Matching-Networks/tree/main/COMMON"><strong>Code</strong></a>
 <!-- **Code**  -->
 [![](https://img.shields.io/github/stars/Lin-Yijie/Graph-Matching-Networks?style=social&label=Stars)](https://github.com/Lin-Yijie/Graph-Matching-Networks/tree/main/COMMON)
+<strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:Y0pCki6q_DkC'></span></strong>
+
 
 - Reveal the noisy correspondence problem in graph matching
 
