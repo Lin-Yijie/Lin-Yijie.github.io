@@ -114,6 +114,7 @@ on Computer Vision (ICCV 2023).
 <!-- under review -->
 
 # 🎖 Honors and Awards
+- *2023.10* National Scholarship (PhD student)
 - *2022.11* [Huawei Scholarship at Sichuan University](https://ygb.scu.edu.cn/info/1007/2515.htm) (First prize)
 - *2021.10* Innovation Scholarship (Ph.D. student) 
 - *2019.09* [National Scholarship](http://www.moe.gov.cn/srcsite/A05/s7505/201912/t20191217_412368.html) (Undergraduate, Top 1%)
@@ -136,9 +137,9 @@ on Computer Vision (ICCV 2023).
 <!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.  -->
 
 <!-- - Journal Reviewer of IEEE Transactions on Knowledge and Data Engineering, IEEE Transactions on Neural Networks and Learning Systems, IEEE Transactions on Systems, Man and Cybernetics: Systems. -->
-- **Journal Reviewer**: IEEE TKDE, IEEE TNNLS, IEEE TCYB, IEEE TAI, IEEE TSMC, Machine Learning, Neural Networks.
+- **Journal Reviewer**: IEEE TKDE, IEEE TNNLS, IEEE TCYB, IEEE TAI, IEEE TSMC, Machine Learning, Neural Networks, and more.
 
-- **Conference Reviewer**: ICLR, NeurIPS, ICML, ICCV, AAAI.
+- **Conference Reviewer**: ICLR, NeurIPS, ICML, CVPR, ICCV, AAAI, and more.
 <!-- - Conference Reviewer: of ICLR 2023, NeurIPS 2023, ICML 2023, ICCV 2023, AAAI 2023. -->
 <!-- , CICAI 2021-2022, ICIG 2021, ACML 2021, PRCV 2021-2022 -->
 
