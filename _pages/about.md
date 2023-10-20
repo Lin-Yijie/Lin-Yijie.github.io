@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <!-- Hi! My name is Yijie Lin.  -->
-I’m a Ph.D. student from College of Computer Science, Sichuan Univerisity, advised by Prof.[Xi Peng](http://pengxi.me). I am now a research intern at Ant Group, doing video-language pretraining.
+I’m a Ph.D. student from College of Computer Science, Sichuan Univerisity, advised by Prof.[Xi Peng](http://pengxi.me). I am now a research intern at Ant Group, doing video-language works.
 
 My research interests mainly focus on Multi-modal Learning and Multi-view Learning, especially the applications in open scenarios, e.g., missing modality and noisy correspondence.
 <!-- (sentence-visual pairs). -->
@@ -78,6 +78,8 @@ on Computer Vision (ICCV 2023).
 [Graph Matching with Bi-level Noisy Correspondence](https://arxiv.org/pdf/2212.04085) \\
 **Yijie Lin**, Mouxing Yang, Jun Yu, Peng Hu, Changqing Zhang, Xi Peng
 
+<a href="https://mp.weixin.qq.com/s/yGieWt0s9jPPRX6sG03KDw"><strong>中文简介</strong></a>
+\|
 <a href="https://github.com/Lin-Yijie/Graph-Matching-Networks/tree/main/COMMON"><strong>Code</strong></a>
 <!-- **Code**  -->
 [![](https://img.shields.io/github/stars/Lin-Yijie/Graph-Matching-Networks?style=social&label=Stars)](https://github.com/Lin-Yijie/Graph-Matching-Networks/tree/main/COMMON)
@@ -116,7 +118,7 @@ on Computer Vision (ICCV 2023).
 # 🎖 Honors and Awards
 - *2023.10* National Scholarship (PhD student)
 - *2022.11* [Huawei Scholarship at Sichuan University](https://ygb.scu.edu.cn/info/1007/2515.htm) (First prize)
-- *2021.10* Innovation Scholarship (Ph.D. student) 
+- *2021.10* Innovation Scholarship (PhD student) 
 - *2019.09* [National Scholarship](http://www.moe.gov.cn/srcsite/A05/s7505/201912/t20191217_412368.html) (Undergraduate, Top 1%)
 
 
