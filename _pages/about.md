@@ -57,9 +57,9 @@ Multi-granularity Correspondence Learning from Long-term Noisy Videos \\
 <!-- <strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:Y0pCki6q_DkC'></span></strong> -->
 
 
-- Reveal multi-granularity noisy correspondence problem in video temporal learning.
+- Reveal multi-granularity noisy correspondence problem in long-term temporal learning.
 
-- Propose an efficient and robust video-language pre-training method for long-form videos.
+- Propose an efficient and robust video-language pre-training method.
 
 
 </div></div>
