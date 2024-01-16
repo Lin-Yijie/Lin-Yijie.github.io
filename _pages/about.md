@@ -30,6 +30,8 @@ My research interests mainly focus on Multi-modal Learning and Multi-view Learni
 
 # 🔥 News
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+- *2024.01*: &nbsp; One paper was accepted by International Conference
+on Learning Representations (ICLR 2024) as  **oral**.
 - *2023.07*: &nbsp; One paper was accepted by International Conference
 on Computer Vision (ICCV 2023).
 - *2022.10*: &nbsp; One paper was accepted at Findings of EMNLP 2022.
@@ -38,6 +40,29 @@ on Computer Vision (ICCV 2023).
 - *2021.03*: &nbsp; One paper was accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2021), Virtual-only Conference, Jun, 2021.
 
 # 📝 Publications 
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/papers/norton.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+
+Multi-granularity Correspondence Learning from Long-term Noisy Videos \\
+**Yijie Lin**, Jie Zhang, ZhenyuHuang, Jia Liu, ZujieWen, Xi Peng
+
+<span style="color:red">(Oral presentation)</span>
+<!-- <a href="https://mp.weixin.qq.com/s/yGieWt0s9jPPRX6sG03KDw"><strong>中文简介</strong></a> -->
+\|
+<!-- <a href="https://github.com/Lin-Yijie/Graph-Matching-Networks/tree/main/COMMON"><strong>Code</strong></a> -->
+<!-- [![](https://img.shields.io/github/stars/Lin-Yijie/Graph-Matching-Networks?style=social&label=Stars)](https://github.com/Lin-Yijie/Graph-Matching-Networks/tree/main/COMMON) -->
+<!-- <strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:Y0pCki6q_DkC'></span></strong> -->
+
+
+- Reveal multi-granularity noisy correspondence problem in video temporal learning.
+
+- Propose an efficient and robust video-language pre-training method for long-form videos.
+
+
+</div></div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2021, TPAMI 2022</div><img src='images/papers/completer.jpg' alt="sym" width="100%"></div></div>
@@ -118,7 +143,8 @@ on Computer Vision (ICCV 2023).
 
 # 🎖 Honors and Awards
 - *2023.10* National Scholarship (PhD student)
-- *2022.11* [Huawei Scholarship at Sichuan University](https://ygb.scu.edu.cn/info/1007/2515.htm) (First prize)
+- *2022.11* [Huawei Scholarship](https://ygb.scu.edu.cn/info/1007/2515.htm) (First prize)  
+<!-- at Sichuan University -->
 - *2021.10* Innovation Scholarship (PhD student) 
 - *2019.09* [National Scholarship](http://www.moe.gov.cn/srcsite/A05/s7505/201912/t20191217_412368.html) (Undergraduate, Top 1%)
 
