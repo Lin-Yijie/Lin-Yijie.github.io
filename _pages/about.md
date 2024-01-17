@@ -49,7 +49,7 @@ on Computer Vision (ICCV 2023).
 Multi-granularity Correspondence Learning from Long-term Noisy Videos \\
 **Yijie Lin**, Jie Zhang, Zhenyu Huang, Jia Liu, Zujie Wen, Xi Peng
 
-<span style="color:red">(Oral presentation)</span>
+<span style="color:red">(Oral presentation, 1.2%)</span>
 <!-- <a href="https://mp.weixin.qq.com/s/yGieWt0s9jPPRX6sG03KDw"><strong>中文简介</strong></a> -->
 <!-- \| -->
 <!-- <a href="https://github.com/Lin-Yijie/Graph-Matching-Networks/tree/main/COMMON"><strong>Code</strong></a> -->
@@ -57,7 +57,7 @@ Multi-granularity Correspondence Learning from Long-term Noisy Videos \\
 <!-- <strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:Y0pCki6q_DkC'></span></strong> -->
 
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal learning.
+- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
 
 - Propose an efficient and robust video-language pre-training method.
 
