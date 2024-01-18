@@ -119,22 +119,23 @@
   </div>
 </section>
 
-<div class="my-hr">
-  <hr>
-</div>
-
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <img src="./static/images/figure1.jpg">
-      <br>
-      <br>
       <!-- <h2 class="subtitle has-text-centered">
         <span class="dnerf"></span> Our observation of noisy correspondence in long-term video learning.
       </h2> -->
     </div>
   </div>
 </section>
+
+
+<div class="my-hr">
+  <hr>
+</div>
+
+
 
 
 <section class="section">
@@ -187,23 +188,29 @@
               </li>
               <ul>
               <li style="margin-top:10px;">
-                <b>HowTo100M video titles</b> (77MB json, for reference only) 
+                <a href="https://www.di.ens.fr/willow/research/howto100m/"><b>HowTo100M</b></a> <b>video titles</b> (77MB json, for reference only) 
+                <br>
                 <a href="http://www.robots.ox.ac.uk/~htd/tan/howto100m_vid_to_title.json"><b>[Download]</b></a>
               </li>
               <li>
-                <p><b>Sentencified HTM (subtitle for training)</b> 
-                is the original <a href="https://www.di.ens.fr/willow/research/howto100m/">HowTo100M</a> (HTM) dataset, 
-                except the YouTube ASR (Automatic Speech Recognition) texts are converted to <b>full sentences</b>
-                using the method <a href="https://github.com/TengdaHan/TemporalAlignNet/tree/main/sentencify_text">here</a>.</p>
+                <p><b>Sentencified HTM (subtitles)</b> 
+                </p>
                 <p>
-                  <a href="http://www.robots.ox.ac.uk/~htd/tan/sentencified_htm_1200k.json"> Download HTM-1.2M (9.9GB json) </a>
-                | <a href="htm_sentencify_stats.html"> Statistics </a>
+                  Sentencified HTM convert the the original YouTube ASR (Automatic Speech Recognition) texts  to <b>full sentences</b>
+                using the method <a href="https://github.com/TengdaHan/TemporalAlignNet/tree/main/sentencify_text">here</a>.</p>
+                
+                <p>
+                  <a href="http://www.robots.ox.ac.uk/~htd/tan/sentencified_htm_1200k.json">Download HTM-1.2M (9.9GB json) </a>
+                | <a href="htm_sentencify_stats.html">Statistics </a>
                 </p>
               </li>
             
               <li style="margin-top:10px;">
-                <b>HowTo100M video feature (for training, 30 fps extracted by S3D-G following VideoCLIP)</b> (around 470 GB npy, release soon) 
-
+                <b>HowTo100M video feature 
+                <p> We use HowTo100M pre-trained S3D (<a href = "https://github.com/antoine77340/S3D_HowTo100M">MIL-NCE</a>)
+                     to extract one video token per second at 30 fps following VideoCLIP, 
+                  obtaining around 470 GB npy files, release soon) 
+                </p>
                 <!-- <a href="http://www.robots.ox.ac.uk/~htd/tan/howto100m_vid_to_title.json"><b>[Download]</b></a> -->
               </li>
             </ul>
@@ -213,7 +220,7 @@
               <ul><li><a href="https://www.robots.ox.ac.uk/~vgg/research/tan/#htm-align"><b>HTM-Align</b></a></li></ul>
               <ul><li><b>YouCookII (we will release the YouCook and MSRVTT feature soon)</b></li></ul>
               <ul><li><b>MSRVTT</b></li></ul>
-              <ul><li"<b><a href="https://coin-dataset.github.io">COIN</a></b></li></ul>
+              <ul><li"<a href="https://coin-dataset.github.io"><b>COIN</b></a></li></ul>
 
             </li>
           </ul>
