@@ -110,9 +110,8 @@ Multi-granularity Correspondence Learning from Long-term Noisy Videos \\
 [![](https://img.shields.io/github/stars/Lin-Yijie/Graph-Matching-Networks?style=social&label=Stars)](https://github.com/Lin-Yijie/Graph-Matching-Networks/tree/main/COMMON)
 <strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:Y0pCki6q_DkC'></span></strong>
 
-
-- State-of-the-art graph matching method to tackle bi-level (node- and edge-level) noisy correspondence ![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/graph-matching-with-bi-level-noisy/graph-matching-on-spair-71k)](https://paperswithcode.com/sota/graph-matching-on-spair-71k?p=graph-matching-with-bi-level-noisy)
-
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/graph-matching-with-bi-level-noisy/graph-matching-on-spair-71k)](https://paperswithcode.com/sota/graph-matching-on-spair-71k?p=graph-matching-with-bi-level-noisy)
+- Reveal bi-level (node- and edge-level) noisy correspondence challenge. 
 - This work is included by famous open-source graph matching project [ThinkMatch](https://GitHub.com/Thinklab-SJTU/ThinkMatch/)
 [![GitHub stars](https://img.shields.io/github/stars/Thinklab-SJTU/ThinkMatch.svg?style=social&label=Star&maxAge=8640)](https://GitHub.com/Thinklab-SJTU/ThinkMatch/)
 
