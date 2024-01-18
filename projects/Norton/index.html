@@ -1,0 +1,762 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multi-granularity Correspondence Learning from Long-term Noisy Videos</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/result.css">
+  <link rel="icon" href="./static/images/page.svg">
+
+
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Multi-granularity Correspondence Learning from Long-term Noisy Videos</h1>
+          
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://lin-yijie.github.io/">Yijie Lin</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Jie Zhang<sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://hi-zhenyu.github.io/">Zhenyu Huang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Jia Liu<sup>2</sup>,            </span>
+            <span class="author-block">
+              Zujie Wen<sup>2</sup>,            </span>
+            <span class="author-block">
+              <a href="http://pengxi.me/">Xi Peng</a><sup>1</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Sichuan University</span>
+            <br>
+            <span class="author-block"><sup>2</sup>Ant Group</span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">ICLR 2024 (Oral)</span>
+            <br>
+          </div>
+
+          <div class="publication-links">
+            <!-- PDF Link. -->
+            <span class="link-block">
+              <a href="https://pengxi.me"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Paper</span>
+              </a>
+            </span>
+            
+            <!-- Video Link. -->
+            <!-- <span class="link-block">
+              <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                </span>
+                <span>Video</span>
+              </a>
+            </span> -->
+
+            <!-- Code Link. -->
+            <span class="link-block">
+              <a href="https://github.com/XLearning-SCU/2024-ICLR-Norton" class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
+                </span>
+                <span>Code</span>
+                </a>
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="my-hr">
+  <hr>
+</div>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <img src="./static/images/figure1.jpg">
+        <br>
+        <br>
+        <div class="content has-text-justified">
+          <p>
+            Existing video-language studies mainly focus on learning short video clips, leaving long-term temporal dependencies rarely explored due to over-high computational cost of modeling long videos. To address this issue, one feasible solution is learning the correspondence between video clips and captions, which however inevitably encounters the multi-granularity noisy correspondence (MNC) problem. To be specific, MNC refers to the clip-caption misalignment (coarse-grained) and frame-word misalignment (fine-grained), hindering temporal learning and video understanding. In this paper, we propose NOise Robust Temporal Optimal traNsport (Norton) that addresses MNC in a unified optimal transport (OT) framework. In brief, Norton employs video-paragraph and clip-caption contrastive losses to capture long-term dependencies based on OT. To address coarse-grained misalignment in video-paragraph contrast, Norton filters out the irrelevant clips and captions through an alignable prompt bucket and realigns asynchronous clip-caption pairs based on transport distance. To address the fine-grained misalignment, Norton incorporates a soft-maximum operator to identify crucial words and key frames. Additionally, Norton exploits the potential faulty negative samples in clip-caption contrast by rectifying the alignment target with OT assignment to ensure precise temporal modeling. Extensive experiments on video retrieval, videoQA, and action segmentation verify the effectiveness of our method. 
+            <!-- Recent text-to-3D generation methods achieve impressive 3D content creation capacity thanks to the advances in image diffusion models and optimizing strategies.
+            However, current methods struggle to generate correct 3D content for a complex prompt in semantics, <i>i.e.</i>, a prompt describing multiple interacted objects binding with different attributes.
+            In this work, we propose a general framework named <b>Progressive3D</b>, which decomposes the entire generation into a series of locally progressive editing steps to create precise 3D content for complex prompts, and we constrain the content change to only occur in regions determined by user-defined region prompts in each editing step.
+            Furthermore, we propose an overlapped semantic component suppression technique to encourage the optimization process to focus more on the semantic differences between prompts.
+            Extensive experiments demonstrate that the proposed Progressive3D framework generates precise 3D content for prompts with complex semantics and is general for various text-to-3D methods driven by different 3D representations. -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+    <hr>
+
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Method</h2>
+          <img src="./static/images/framework.jpg">
+          <br>
+          <br>
+          <div class="content has-text-justified">
+            <p>
+              <b>Overview of our multi-granularity correspondence learning. </b>
+              We perform video-paragraph contrastive learning to capture long-term temporal correlations from a fine-to-coarse perspective. Specifically, we first utilize the log-sum-exp operator on the frame-word similarity matrix to obtain fine-grained similarity between clip and caption. Additionally, we append an alignable prompt bucket on the clip-caption similarity matrix to filter out the irrelevant clips or captions. By applying Sinkhorn iterations on the clip-caption similarity matrix, we effectively tackle the asynchronous problem and obtain the optimal transport distance as the video-paragraph similarity. 
+            </p>
+          </div> 
+          
+        </div>
+    </div>
+    
+    <hr>
+
+      
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Dataset</h2>
+        <div class="content has-text-justified">
+          <p>
+            <ul>
+              <li>Training Dataset Howto100M
+                <ur>
+              <li style="margin-top:10px;">
+                <b>HowTo100M video titles</b> (77MB json, for reference only) 
+                <a href="http://www.robots.ox.ac.uk/~htd/tan/howto100m_vid_to_title.json"><b>[Download]</b></a>
+              </li>
+              <li>
+                <p><b>Sentencified HTM (for text subtile)</b> 
+                is the original <a href="https://www.di.ens.fr/willow/research/howto100m/">HowTo100M</a> (HTM) dataset, 
+                except the YouTube ASR (Automatic Speech Recognition) texts are converted to <b>full sentences</b>
+                using the method <a href="https://github.com/TengdaHan/TemporalAlignNet/tree/main/sentencify_text">here</a>.</p>
+                <center><p>
+                  <a href="http://www.robots.ox.ac.uk/~htd/tan/sentencified_htm_1200k.json"> Download HTM-1.2M (9.9GB json) </a>
+                | <a href="htm_sentencify_stats.html"> Statistics </a>
+                </p></center>
+              </li>
+            
+
+              <li style="margin-top:10px;">
+                <b>HowTo100M video feature (30 fps extracted using S3D following VideoCLIP)</b> (470 GB npy, will be released soon) 
+
+                <!-- <a href="http://www.robots.ox.ac.uk/~htd/tan/howto100m_vid_to_title.json"><b>[Download]</b></a> -->
+              </li>
+            </ur>
+            </li>
+            
+            <li>Evaluation Dataset:
+              <ul><li style="margin-top:10px;"><a href="https://www.robots.ox.ac.uk/~vgg/research/tan/#htm-align"><b>HTM-Align</b></a></li></ul>
+              <ul><li style="margin-top:10px;"><b>YouCookII (we will release link of YouCook and MSRVTT feature soon)</b></li></ul>
+              <ul><li style="margin-top:10px;"><b>COIN</b></li></ul>
+              <ul><li style="margin-top:10px;"><b>MSRVTT</b></li></ul>
+
+            </li>
+          </ul>
+      <br>
+       
+            
+          
+          </p>
+        </div>
+
+        <!-- <video id="replay-video" autoplay loop muted width="100%">
+          <source src="./static/videos/conception.mp4"
+                  type="video/mp4">
+        </video> -->
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">2D Mask</h2>
+        <div class="content has-text-justified">
+          <p>
+            Progressive3D supports different editable region definations since their depth and opacity can be obtained from rendering.
+          </p>
+        </div>
+      <table>
+        <tr>
+          <td>
+            <b>Source content</b>
+          </td>
+          <td></td>
+          <td>
+            <b>3D bounding box</b>
+          </td>
+          <td>
+            <b>2D mask</b>
+          </td>
+          <td></td>
+          <td>
+            <b>Custom mesh</b>
+          </td>
+          <td>
+            <b>2D mask</b>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="width: 18.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/astronaut2.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <img src="./static/images/line.png">
+          </td>
+          <td style="width: 18.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/box.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td style="width: 18.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/mask1.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <img src="./static/images/line.png">
+          </td>
+          <td style="width: 18.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/mesh.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td style="width: 18.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/mask2.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+        </tr>
+      </table>
+      </div>
+    </div>
+
+    <hr> -->
+    
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Qualititive Ablations</h2>
+      <table>
+        <tr>
+          <td>
+            <b>Source content</b>
+          </td>
+          <td></td>
+          <td>
+            <b>w/o Loss_consisnt</b>
+          </td>
+          <td></td>
+          <td>
+            <b>w/o Loss_initial</b>
+          </td>
+          <td></td>
+          <td>
+            <b>w/o OSCS</b>
+          </td>
+          <td></td>
+          <td>
+            <b>Ours</b>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="width: 18.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/astronaut2.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td></td>
+          <td style="width: 18.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/ablation1.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td></td>
+          <td style="width: 18.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/ablation2.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td></td>
+          <td style="width: 18.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/ablation3.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td></td>
+          <td style="width: 18.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/ablation4.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+        </tr>
+      </table>
+      </div>
+    </div> -->
+
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Challenges</h2>
+        <div class="content has-text-justified">
+          <p>
+            Current text-to-3D methods often fail to produce precise results when the given prompt describes multiple interacted objects binding with different attributes, leading to significant issues including object missing, attribute mismatching, and quality reduction.
+            For each sample pairs, the left one is the generated by DreamTime, and the right one is created by Progressive3D. 
+          </p>
+        </div>
+        
+      <table>
+
+        <tr>
+          <td>
+            <b>DreamTime</b>
+          </td>
+          <td>
+            <b>Ours</b>
+          </td>
+          <td>
+            <b>DreamTime</b>
+          </td>
+          <td>
+            <b>Ours</b>
+          </td>
+          <td>
+            <b>DreamTime</b>
+          </td>
+          <td>
+            <b>Ours</b>
+          </td>
+        </tr>
+        
+        <tr>
+          <td width="16.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/pink0.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td width="16.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/pink1.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td width="16.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/tank0.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td width="16.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/tank1.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td width="16.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/cake0.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td width="16.5%">
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/cake1.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <span style="font-size: 16px; font-family: Comic Sans MS;font-style: italic;" >A blue peony in a pink vase.</span>
+          </td>
+          
+          <td colspan="2">
+            <span style="font-size: 16px; font-family: Comic Sans MS;font-style: italic;" >A lego tank with a golden gun and a red flying flag.</span>
+          </td>
+
+          <td colspan="2">
+            <span style="font-size: 16px; font-family: Comic Sans MS;font-style: italic;" >A green spoon on a red cake in a yellow tray.</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/giftbox0.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/giftbox1.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/motorcycle0.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/motorcycle1.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/cat0.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/cat1.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <span style="font-size: 16px; font-family: Comic Sans MS;font-style: italic;" >A round gift box on a hexagonal table.</span>
+          </td>
+          
+          <td colspan="2">
+            <span style="font-size: 16px; font-family: Comic Sans MS;font-style: italic;" >A lego man and wearing a silver crown and riding a golden motorcycle.</span>
+          </td>
+
+          <td colspan="2">
+            <span style="font-size: 16px; font-family: Comic Sans MS;font-style: italic;" >An orange cat wearing a yellow suit and green sneakers.</span>
+          </td>
+        </tr>
+
+      </table>
+      </div>
+    </div>
+
+    <hr> -->
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Comparison</h2>
+        <img src="./static/images/visual.jpg">
+        <br>
+        <br>        
+        <div class="content has-text-justified">
+          <p>
+            The visualization of re-alignment to demonstrate the robustness of our method. 
+            We compared our proposed Norton with the Dynamic Time Warping and vanilla optimal transport. 
+          </p>
+        </div>
+        
+      
+      <!-- <video id="replay-video" autoplay loop muted width="100%">
+        <source src="./static/videos/main.mp4"
+                type="video/mp4">
+      </video> -->
+          
+      </div>
+    </div>
+
+    <hr>
+<!-- 
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">More Progressive Editing</h2>
+        <div class="content has-text-justified">
+          <p>
+            We provide more progressive editing results created with our Progressive3D based on DreamTime.
+          </p>
+        </div>
+        
+      <table>
+
+        <tr>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/tray0.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td rowspan="6" width="5.2%">
+            <img src="./static/images/arrow2.png">
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/tray10.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td rowspan="6" width="5.2%">
+            <img src="./static/images/arrow2.png">
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/tray20.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/table0.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td rowspan="6" width="5.2%">
+            <img src="./static/images/arrow2.png">
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/table10.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td rowspan="6" width="5.2%">
+            <img src="./static/images/arrow2.png">
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/table20.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" >A star-shaped tray.</p>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" ><span style="color: red"> A hexagonal cap on </span>a star-shaped tray.</p>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" ><span style="color: red"> A green cactus in </span>a hexagonal cap on a star-shaped tray.</p>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" >A golden table.</p>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" ><span style="color: red"> A ceramic tea pot on </span>a golden table.</p>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" >A ceramic tea pot on<span style="color: red"> and a lego car </span>on a golden table.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/tray11.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/tray21.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/table11.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/table21.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" ><span style="color: red"> A square pepper on </span>a star-shaped tray.</p>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" ><span style="color: red"> A red rose in </span>a hexagonal cap on a star-shaped tray.</p>
+          </td>
+          <td>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" ><span style="color: red"> A silver vase on </span>a golden table.</p>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" >A ceramic tea pot on<span style="color: red"> and a cardboard box </span> on a golden table.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/tray12.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/tray22.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/table12.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+          <td>
+            <video id="replay-video" autoplay loop muted width="100%">
+              <source src="./static/videos/table22.mp4"
+                      type="video/mp4">
+            </video>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" ><span style="color: red"> A triangular cake on </span>a star-shaped tray.</p>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" ><span style="color: red"> A white lily in </span>a hexagonal cap on a star-shaped tray.</p>
+          </td>
+          <td>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" ><span style="color: red"> An origami box on </span>a golden table.</p>
+          </td>
+          <td>
+            <p style="font-size: 12px; font-family: Comic Sans MS;font-style: italic;" >A ceramic tea pot on<span style="color: red"> and wooden shoes </span>on a golden table.</p>
+          </td>
+        </tr>
+
+      </table>
+      </div>
+    </div>
+
+  </div>    -->
+
+</section>  
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @inproceedings{lin2024norton,
+        title={Multi-granularity Correspondence Learning from Long-term Noisy Videos},
+        author={Lin, Yijie and Zhang, Jie and Huang, Zhenyu and Liu, Jia and Wen, Zujie and Peng, Xi},
+        booktitle={Proceedings of the International Conference on Learning Representations},
+        month={May},
+        year={2024}
+     }
+    </code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <!-- <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a> -->
+      <!-- <a class="icon-link" href="https://github.com/whaohan" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a> -->
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is constructed using the templet provided by <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. Thanks for their effort.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
