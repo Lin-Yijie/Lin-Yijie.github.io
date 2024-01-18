@@ -111,7 +111,7 @@ Multi-granularity Correspondence Learning from Long-term Noisy Videos \\
 <strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:Y0pCki6q_DkC'></span></strong>
 
 
-- Reveal the noisy correspondence problem in graph matching
+- SOTA graph matching method by addressing bi-level (node- and edge-level) noisy correspondence.
 
 - This work is included by famous open-source graph matching project [ThinkMatch](https://GitHub.com/Thinklab-SJTU/ThinkMatch/)
 [![GitHub stars](https://img.shields.io/github/stars/Thinklab-SJTU/ThinkMatch.svg?style=social&label=Star&maxAge=8640)](https://GitHub.com/Thinklab-SJTU/ThinkMatch/)
@@ -169,7 +169,7 @@ Multi-granularity Correspondence Learning from Long-term Noisy Videos \\
 - **Journal Reviewer**: IEEE TKDE, IEEE TNNLS, IEEE TAI, and more.
 <!-- IEEE TCYB, IEEE TAI, IEEE TSMC, Machine Learning, Neural Networks, and more. -->
 
-- **Conference Reviewer**: ICLR, NeurIPS, ICML, CVPR, ICCV, AAAI, and more.
+- **Conference Reviewer**: ICLR, NeurIPS, ICML, CVPR, ICCV, ECCV, AAAI, and more.
 <!-- - Conference Reviewer: of ICLR 2023, NeurIPS 2023, ICML 2023, ICCV 2023, AAAI 2023. -->
 <!-- , CICAI 2021-2022, ICIG 2021, ACML 2021, PRCV 2021-2022 -->
 
