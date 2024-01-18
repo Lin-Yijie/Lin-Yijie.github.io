@@ -129,9 +129,9 @@
       <img src="./static/images/figure1.jpg">
       <br>
       <br>
-      <h2 class="subtitle has-text-centered">
+      <!-- <h2 class="subtitle has-text-centered">
         <span class="dnerf"></span> Our observation of noisy correspondence in long-term video learning.
-      </h2>
+      </h2> -->
     </div>
   </div>
 </section>
@@ -162,15 +162,16 @@
     <div class="columns is-centered has-text-centered">
         <div class="column is-full-width">
           <h2 class="title is-3">Method</h2>
+          <img src="./static/images/framework.jpg">
+          <br>
+          <br>
           <div class="content has-text-justified">
             <p>
               <b>Overview of our multi-granularity correspondence learning. </b>
               We perform video-paragraph contrastive learning to capture long-term temporal correlations from a fine-to-coarse perspective. Specifically, we first utilize the log-sum-exp operator on the frame-word similarity matrix to obtain fine-grained similarity between clip and caption. Additionally, we append an alignable prompt bucket on the clip-caption similarity matrix to filter out the irrelevant clips or captions. By applying Sinkhorn iterations on the clip-caption similarity matrix, we effectively tackle the asynchronous problem and obtain the optimal transport distance as the video-paragraph similarity. 
             </p>
           </div> 
-          <img src="./static/images/framework.jpg">
-          <br>
-          <br>
+
         </div>
     </div>
     
@@ -181,17 +182,16 @@
       <div class="column is-full-width">
         <h2 class="title is-3">Dataset</h2>
         <div class="content has-text-justified">
-          <p>
             <ul>
-              <li>Training Dataset Howto100M
+              <li><b>Training Dataset Howto100M</b>
               </li>
-                <ur>
+              <ul>
               <li style="margin-top:10px;">
                 <b>HowTo100M video titles</b> (77MB json, for reference only) 
                 <a href="http://www.robots.ox.ac.uk/~htd/tan/howto100m_vid_to_title.json"><b>[Download]</b></a>
               </li>
               <li>
-                <p><b>Sentencified HTM (for text subtile)</b> 
+                <p><b>Sentencified HTM (subtitle for training)</b> 
                 is the original <a href="https://www.di.ens.fr/willow/research/howto100m/">HowTo100M</a> (HTM) dataset, 
                 except the YouTube ASR (Automatic Speech Recognition) texts are converted to <b>full sentences</b>
                 using the method <a href="https://github.com/TengdaHan/TemporalAlignNet/tree/main/sentencify_text">here</a>.</p>
@@ -201,28 +201,25 @@
                 </p>
               </li>
             
-
               <li style="margin-top:10px;">
-                <b>HowTo100M video feature (30 fps extracted by S3D-G following VideoCLIP)</b> (470 GB npy, will be released soon) 
+                <b>HowTo100M video feature (for training, 30 fps extracted by S3D-G following VideoCLIP)</b> (around 470 GB npy, release soon) 
 
                 <!-- <a href="http://www.robots.ox.ac.uk/~htd/tan/howto100m_vid_to_title.json"><b>[Download]</b></a> -->
               </li>
-            </ur>
+            </ul>
             </li>
             
             <li>Evaluation Dataset:
-              <ul><li style="margin-top:10px;"><a href="https://www.robots.ox.ac.uk/~vgg/research/tan/#htm-align"><b>HTM-Align</b></a></li></ul>
-              <ul><li style="margin-top:10px;"><b>YouCookII (we will release the YouCook and MSRVTT feature soon)</b></li></ul>
-              <ul><li style="margin-top:10px;"><b>COIN</b></li></ul>
-              <ul><li style="margin-top:10px;"><b>MSRVTT</b></li></ul>
+              <ul><li><a href="https://www.robots.ox.ac.uk/~vgg/research/tan/#htm-align"><b>HTM-Align</b></a></li></ul>
+              <ul><li"><b>YouCookII (we will release the YouCook and MSRVTT feature soon)</b></li></ul>
+              <ul><li"><b>MSRVTT</b></li></ul>
+              <ul><li"><b><a href="https://coin-dataset.github.io">COIN</a></b></li></ul>
 
             </li>
           </ul>
       <br>
        
             
-          
-          </p>
         </div>
 
         <!-- <video id="replay-video" autoplay loop muted width="100%">
