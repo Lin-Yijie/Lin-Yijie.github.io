@@ -75,7 +75,7 @@
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block">ICLR 2024 (Oral)</span>
+            <span class="author-block" style="color:red"><b>ICLR 2024 (Oral)</b></span>
             <br>
           </div>
 
@@ -123,15 +123,27 @@
   <hr>
 </div>
 
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/figure1.jpg">
+      <br>
+      <br>
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf"></span> Our observation of noisy correspondence in long-term video learning.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
-        <img src="./static/images/figure1.jpg">
-        <br>
-        <br>
+
         <div class="content has-text-justified">
           <p>
             Existing video-language studies mainly focus on learning short video clips, leaving long-term temporal dependencies rarely explored due to over-high computational cost of modeling long videos. To address this issue, one feasible solution is learning the correspondence between video clips and captions, which however inevitably encounters the multi-granularity noisy correspondence (MNC) problem. To be specific, MNC refers to the clip-caption misalignment (coarse-grained) and frame-word misalignment (fine-grained), hindering temporal learning and video understanding. In this paper, we propose NOise Robust Temporal Optimal traNsport (Norton) that addresses MNC in a unified optimal transport (OT) framework. In brief, Norton employs video-paragraph and clip-caption contrastive losses to capture long-term dependencies based on OT. To address coarse-grained misalignment in video-paragraph contrast, Norton filters out the irrelevant clips and captions through an alignable prompt bucket and realigns asynchronous clip-caption pairs based on transport distance. To address the fine-grained misalignment, Norton incorporates a soft-maximum operator to identify crucial words and key frames. Additionally, Norton exploits the potential faulty negative samples in clip-caption contrast by rectifying the alignment target with OT assignment to ensure precise temporal modeling. Extensive experiments on video retrieval, videoQA, and action segmentation verify the effectiveness of our method. 
@@ -150,16 +162,15 @@
     <div class="columns is-centered has-text-centered">
         <div class="column is-full-width">
           <h2 class="title is-3">Method</h2>
-          <img src="./static/images/framework.jpg">
-          <br>
-          <br>
           <div class="content has-text-justified">
             <p>
               <b>Overview of our multi-granularity correspondence learning. </b>
               We perform video-paragraph contrastive learning to capture long-term temporal correlations from a fine-to-coarse perspective. Specifically, we first utilize the log-sum-exp operator on the frame-word similarity matrix to obtain fine-grained similarity between clip and caption. Additionally, we append an alignable prompt bucket on the clip-caption similarity matrix to filter out the irrelevant clips or captions. By applying Sinkhorn iterations on the clip-caption similarity matrix, we effectively tackle the asynchronous problem and obtain the optimal transport distance as the video-paragraph similarity. 
             </p>
           </div> 
-          
+          <img src="./static/images/framework.jpg">
+          <br>
+          <br>
         </div>
     </div>
     
@@ -173,6 +184,7 @@
           <p>
             <ul>
               <li>Training Dataset Howto100M
+              </li>
                 <ur>
               <li style="margin-top:10px;">
                 <b>HowTo100M video titles</b> (77MB json, for reference only) 
@@ -183,15 +195,15 @@
                 is the original <a href="https://www.di.ens.fr/willow/research/howto100m/">HowTo100M</a> (HTM) dataset, 
                 except the YouTube ASR (Automatic Speech Recognition) texts are converted to <b>full sentences</b>
                 using the method <a href="https://github.com/TengdaHan/TemporalAlignNet/tree/main/sentencify_text">here</a>.</p>
-                <center><p>
+                <p>
                   <a href="http://www.robots.ox.ac.uk/~htd/tan/sentencified_htm_1200k.json"> Download HTM-1.2M (9.9GB json) </a>
                 | <a href="htm_sentencify_stats.html"> Statistics </a>
-                </p></center>
+                </p>
               </li>
             
 
               <li style="margin-top:10px;">
-                <b>HowTo100M video feature (30 fps extracted using S3D following VideoCLIP)</b> (470 GB npy, will be released soon) 
+                <b>HowTo100M video feature (30 fps extracted by S3D-G following VideoCLIP)</b> (470 GB npy, will be released soon) 
 
                 <!-- <a href="http://www.robots.ox.ac.uk/~htd/tan/howto100m_vid_to_title.json"><b>[Download]</b></a> -->
               </li>
@@ -200,7 +212,7 @@
             
             <li>Evaluation Dataset:
               <ul><li style="margin-top:10px;"><a href="https://www.robots.ox.ac.uk/~vgg/research/tan/#htm-align"><b>HTM-Align</b></a></li></ul>
-              <ul><li style="margin-top:10px;"><b>YouCookII (we will release link of YouCook and MSRVTT feature soon)</b></li></ul>
+              <ul><li style="margin-top:10px;"><b>YouCookII (we will release the YouCook and MSRVTT feature soon)</b></li></ul>
               <ul><li style="margin-top:10px;"><b>COIN</b></li></ul>
               <ul><li style="margin-top:10px;"><b>MSRVTT</b></li></ul>
 
@@ -508,15 +520,16 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Comparison</h2>
-        <img src="./static/images/visual.jpg">
-        <br>
-        <br>        
+    
         <div class="content has-text-justified">
           <p>
             The visualization of re-alignment to demonstrate the robustness of our method. 
             We compared our proposed Norton with the Dynamic Time Warping and vanilla optimal transport. 
           </p>
         </div>
+        <img src="./static/images/visual.jpg">
+        <br>
+        <br>    
         
       
       <!-- <video id="replay-video" autoplay loop muted width="100%">
@@ -717,6 +730,31 @@
     </div>
 
   </div>    -->
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Background of Noisy Correspondence</h2>
+        <div class="content has-text-justified">
+          <p>
+            Noisy correspondence problem (<i>mismatched data pairs</i>) has garnered attention in diverse multi-modal applications, extending <b>beyond video-text domains</b> 
+            to encompass challenges in image-text retrieval 
+            (<a href="https://proceedings.neurips.cc/paper/2021/file/f5e62af885293cf4d511ceef31e61c80-Paper.pdf"> Huang et al., 2021; </a>
+            <a href="http://pengxi.me/wp-content/uploads/2022/09/Deep-Evidential-Learning-with-Noisy-Correspondence-for-Cross-modal-Retrieval.pdf"> Qin et al., 2022; </a>
+            <a href="https://arxiv.org/pdf/2310.17468.pdf"> 2023; </a>
+            <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Han_Noisy_Correspondence_Learning_With_Meta_Similarity_Correction_CVPR_2023_paper.pdf"> Han et al., 2023; </a>
+            <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_BiCro_Noisy_Correspondence_Rectification_for_Multi-Modality_Data_via_Bi-Directional_Cross-Modal_CVPR_2023_paper.pdf"> Yang et al., 2023; </a>), 
+            cross-modal generation (<a href="https://proceedings.mlr.press/v162/li22n/li22n.pdf"> Li et al., 2022</a>), 
+            person re-identiAcation (<a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Yang_Learning_With_Twin_Noisy_Labels_for_Visible-Infrared_Person_Re-Identification_CVPR_2022_paper.pdf"> Yang et al., 2022</a>), 
+            and graph matching (<a href="https://arxiv.org/pdf/2212.04085.pdf"> Lin et al., 2023 </a>)            
+            Our work has the potential to attract increased attention to the broader spectrum of noisy correspondence challenges across various domains.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+    <hr>
+
 
 </section>  
 
