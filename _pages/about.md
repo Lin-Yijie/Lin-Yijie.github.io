@@ -53,6 +53,8 @@ Multi-granularity Correspondence Learning from Long-term Noisy Videos \\
 <span style="color:red">(Oral presentation, 1.2%)</span>
 \|
 <a href="https://lin-yijie.github.io/projects/Norton/"><strong>Project</strong></a>
+\|
+<a href="https://github.com/XLearning-SCU/2024-ICLR-Norton"><strong>Code</strong></a>
 
 <!-- <a href="https://mp.weixin.qq.com/s/yGieWt0s9jPPRX6sG03KDw"><strong>中文简介</strong></a> -->
 <!-- \| -->
