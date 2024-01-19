@@ -32,7 +32,7 @@ My research interests mainly focus on Multi-modal Learning and Multi-view Learni
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 - *2024.01*: &nbsp; One paper was accepted by International Conference
 on Learning Representations (ICLR 2024) as  **oral**.
-- *2024.12*: &nbsp; One paper was accepted by Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI 2024). Congrats to Yiding.
+- *2024.12*: &nbsp; One paper was accepted by AAAI Conference on Artificial Intelligence (AAAI 2024). Congrats to Yiding.
 - *2023.07*: &nbsp; One paper was accepted by International Conference
 on Computer Vision (ICCV 2023).
 - *2022.10*: &nbsp; One paper was accepted at Findings of EMNLP 2022.
