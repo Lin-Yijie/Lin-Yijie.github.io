@@ -47,7 +47,7 @@ on Computer Vision (ICCV 2023).
 <div class='paper-box-text' markdown="1">
 
 
-Multi-granularity Correspondence Learning from Long-term Noisy Videos \\
+[Multi-granularity Correspondence Learning from Long-term Noisy Videos](https://arxiv.org/pdf/2401.16702.pdf) \\
 **Yijie Lin**, Jie Zhang, Zhenyu Huang, Jia Liu, Zujie Wen, Xi Peng
 
 <span style="color:red">(Oral presentation, 1.2%)</span>
