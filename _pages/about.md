@@ -49,7 +49,7 @@ on Computer Vision (ICCV 2023).
 <div class='paper-box-text' markdown="1">
 
 
-[<em>ICLR’24</em>] [Multi-granularity Correspondence Learning from Long-term Noisy Videos](https://arxiv.org/pdf/2401.16702.pdf) \\
+[<em>**ICLR’24**</em>] [Multi-granularity Correspondence Learning from Long-term Noisy Videos](https://arxiv.org/pdf/2401.16702.pdf) \\
 **Yijie Lin**, Jie Zhang, Zhenyu Huang, Jia Liu, Zujie Wen, Xi Peng
 
 <span style="color:red">(Oral presentation, 1.2%)</span>
@@ -83,7 +83,7 @@ on Computer Vision (ICCV 2023).
 <div class='paper-box-text' markdown="1">
 
 <!-- [COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction](https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_COMPLETER_Incomplete_Multi-View_Clustering_via_Contrastive_Prediction_CVPR_2021_paper.pdf) \\ -->
-[<em>CVPR’21</em>] [COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction](http://pengxi.me/wp-content/uploads/2021/03/2021CVPR-completer.pdf) \\
+[<em>**CVPR’21**</em>] [COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction](http://pengxi.me/wp-content/uploads/2021/03/2021CVPR-completer.pdf) \\
  **Yijie Lin**, Yuanbiao Gou, Zitao Liu, Boyun Li, Jiancheng Lv, Xi Peng
 
 
@@ -99,7 +99,7 @@ on Computer Vision (ICCV 2023).
 <!-- https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=KXKVYHsAAAAJ:d1gkVwhDpl0C -->
 
 
-[<em>TPAMI’22</em>] [Dual Contrastive Prediction for Incomplete Multi-view Representation Learning](http://pengxi.me/wp-content/uploads/2023/02/DCP-2023_compressed.pdf) \\
+[<em>**TPAMI’22**</em>] [Dual Contrastive Prediction for Incomplete Multi-view Representation Learning](http://pengxi.me/wp-content/uploads/2023/02/DCP-2023_compressed.pdf) \\
 **Yijie Lin**, Yuanbiao Gou, Xiaotian Liu, Jinfeng Bai, Jiancheng Lv, Xi Peng
 
 <a href="https://cs.scu.edu.cn/info/1246/17111.htm"><strong>中文简介</strong></a>
@@ -116,7 +116,7 @@ on Computer Vision (ICCV 2023).
 <img src='images/papers/common.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[<em>ICCV’23</em>] [Graph Matching with Bi-level Noisy Correspondence](https://arxiv.org/pdf/2212.04085) \\
+[<em>**ICCV’23**</em>] [Graph Matching with Bi-level Noisy Correspondence](https://arxiv.org/pdf/2212.04085) \\
 **Yijie Lin**, Mouxing Yang, Jun Yu, Peng Hu, Changqing Zhang, Xi Peng
 
 <a href="https://mp.weixin.qq.com/s/yGieWt0s9jPPRX6sG03KDw"><strong>中文简介</strong></a>
@@ -141,15 +141,15 @@ on Computer Vision (ICCV 2023).
 <a href="https://github.com/XLearning-SCU/2022-TPAMI-DCP"><strong>Code</strong></a> -->
 
 
-- [<em>EMNLP Findings'22</em>] [Improve Interpretability of Neural Networks via Sparse Contrastive Coding](https://aclanthology.org/2022.findings-emnlp.32.pdf), Junhong Liu\*,
+- [<em>**EMNLP Findings'22**</em>] [Improve Interpretability of Neural Networks via Sparse Contrastive Coding](https://aclanthology.org/2022.findings-emnlp.32.pdf), Junhong Liu\*,
 **Yijie Lin**\*, Liang Jiang, Jia Liu, Zujie Wen, Xi Peng
 
-- [<em>AAAI'24'</em>] [Decoupled Contrastive Multi-view Clustering with High-order Random Walks](https://arxiv.org/pdf/2308.11164.pdf), Yiding Lu, **Yijie Lin**, Mouxing Yang, Dezhong Peng, Peng Hu, Xi Peng \| <a href="https://github.com/XLearning-SCU/2024-AAAI-DIVIDE"><strong>Code</strong></a>
+- [<em>**AAAI'24**</em>] [Decoupled Contrastive Multi-view Clustering with High-order Random Walks](https://arxiv.org/pdf/2308.11164.pdf), Yiding Lu, **Yijie Lin**, Mouxing Yang, Dezhong Peng, Peng Hu, Xi Peng \| <a href="https://github.com/XLearning-SCU/2024-AAAI-DIVIDE"><strong>Code</strong></a>
 
 
-- [<em>TNNLS'23'</em>] [Single-cell RNA-seq Debiased Clustering via Batch Effect Disentanglement](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10086540), Yunfan Li, **Yijie Lin**, Han Luo, Peng Hu, Dezhong Peng, Xi Peng 
+- [<em>**TNNLS'23**</em>] [Single-cell RNA-seq Debiased Clustering via Batch Effect Disentanglement](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10086540), Yunfan Li, **Yijie Lin**, Han Luo, Peng Hu, Dezhong Peng, Xi Peng 
 
-- [<em>TIP'22</em>] [Unsupervised Neural Rendering for Image Hazing](https://ieeexplore.ieee.org/document/9788526/), Boyun Li, **Yijie Lin**, Xiao Liu, Peng Hu, Jiancheng Lv, Xi Peng
+- [<em>**TIP'22**</em>] [Unsupervised Neural Rendering for Image Hazing](https://ieeexplore.ieee.org/document/9788526/), Boyun Li, **Yijie Lin**, Xiao Liu, Peng Hu, Jiancheng Lv, Xi Peng
 
 <!-- Tech Report -->
 
