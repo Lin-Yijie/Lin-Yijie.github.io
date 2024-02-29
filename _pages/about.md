@@ -43,9 +43,8 @@ on Computer Vision (ICCV 2023).
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div>
-<!-- <div class="badge">ICLR 2024</div> -->
-<img src='images/papers/norton.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+
 <div class='paper-box-text' markdown="1">
 
 
@@ -74,12 +73,16 @@ on Computer Vision (ICCV 2023).
 - Propose an efficient and robust video-language pre-training method.
 
 
-</div></div>
+</div>
+<div class='paper-box-image'><div>
+<!-- <div class="badge">ICLR 2024</div> -->
+<img src='images/papers/norton.jpg' alt="sym" width="100%"></div></div>
+</div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div>
-<!-- <div class="badge">CVPR 2021, TPAMI 2022</div> -->
-<img src='images/papers/completer.jpg' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'>
+  
 <div class='paper-box-text' markdown="1">
 
 <!-- [COMPLETER: Incomplete Multi-view Clustering via Contrastive Prediction](https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_COMPLETER_Incomplete_Multi-View_Clustering_via_Contrastive_Prediction_CVPR_2021_paper.pdf) \\ -->
@@ -108,12 +111,14 @@ on Computer Vision (ICCV 2023).
 [![](https://img.shields.io/github/stars/XLearning-SCU/2022-TPAMI-DCP?style=social&label=Stars)](https://github.com/XLearning-SCU/2022-TPAMI-DCP)
 <strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:UeHWp8X0CEIC'></span></strong>
 </div>
+<div class='paper-box-image'><div>
+<!-- <div class="badge">CVPR 2021, TPAMI 2022</div> -->
+<img src='images/papers/completer.jpg' alt="sym" width="100%"></div></div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div>
-<!-- <div class="badge">ICCV 2023</div> -->
-<img src='images/papers/common.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+  
 <div class='paper-box-text' markdown="1">
 
 [<em>**ICCV’23**</em>] [Graph Matching with Bi-level Noisy Correspondence](https://arxiv.org/pdf/2212.04085) \\
@@ -131,7 +136,11 @@ on Computer Vision (ICCV 2023).
 - This work is included by famous open-source graph matching project [ThinkMatch](https://GitHub.com/Thinklab-SJTU/ThinkMatch/)
 [![GitHub stars](https://img.shields.io/github/stars/Thinklab-SJTU/ThinkMatch.svg?style=social&label=Star&maxAge=8640)](https://GitHub.com/Thinklab-SJTU/ThinkMatch/)
 
-</div></div>
+</div>
+<div class='paper-box-image'><div>
+<!-- <div class="badge">ICCV 2023</div> -->
+<img src='images/papers/common.jpg' alt="sym" width="100%"></div></div>
+</div>
 
 
 <!-- - `TPAMI 2022` [Dual Contrastive Prediction for Incomplete Multi-view Representation Learning](http://pengxi.me/wp-content/uploads/2023/02/DCP-2023_compressed.pdf),  **Yijie Lin**, Yuanbiao Gou, Xiaotian Liu, Jinfeng Bai, Jiancheng Lv, Xi Peng
