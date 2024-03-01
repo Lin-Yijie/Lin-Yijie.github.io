@@ -119,7 +119,7 @@ on Computer Vision (ICCV 2023).
 
 
 <div class='paper-box'>
-  <div class='paper-box-image'><div>
+<div class='paper-box-image'><div>
 <!-- <div class="badge">ICCV 2023</div> -->
 <img src='images/papers/common.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
