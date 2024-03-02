@@ -55,6 +55,7 @@
         display: flex;
         width: 100%;
         order: 1;
+        padding-bottom: 0.5em;
         img {
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
@@ -64,9 +65,11 @@
     
     .paper-box-text{
         max-width: 100%;
+        padding-top: 0.5em;
         order: 2;
     }
     
+    // exceed medium using padding
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
@@ -85,25 +88,6 @@
         }
 
     }
-
-    @media screen and (max-width: 768px) {
-        .paper-box-image {
-            justify-content: left;
-            padding-bottom: 0.5em;
-            min-width: 200px;
-            max-width: 40%;
-            order: 2;
-        }
-        
-        .paper-box-text {
-            justify-content: left;
-            padding-right: 1em;
-            padding-top: 0.5em;
-            max-width: 60%;
-            order: 1;
-        }
-    }
-
 
 
 }
