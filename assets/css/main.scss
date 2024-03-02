@@ -86,8 +86,8 @@
 
     }
 
-    @include breakpoint($small) {
-        .paper-box-image{
+    @media screen and (max-width: 768px) {
+        .paper-box-image {
             justify-content: left;
             padding-bottom: 0.5em;
             min-width: 200px;
@@ -95,15 +95,15 @@
             order: 2;
         }
         
-        .paper-box-text{
+        .paper-box-text {
             justify-content: left;
             padding-right: 1em;
             padding-top: 0.5em;
             max-width: 60%;
             order: 1;
         }
-
     }
+
 
 
 }
