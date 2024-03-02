@@ -47,14 +47,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
-    padding: 1em 0 0 1em; // 0.5em 0 0 1em
+    padding: 1em 0 1em 1em; // 0.5em 0 0 1em
     
 
     .paper-box-image{
         justify-content: center;
         display: flex;
         width: 100%;
-        order: 2;
+        order: 1;
         img {
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
@@ -64,7 +64,7 @@
     
     .paper-box-text{
         max-width: 100%;
-        order: 1;
+        order: 2;
     }
     
     // exceed medium using padding
