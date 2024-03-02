@@ -65,7 +65,6 @@
     
     .paper-box-text{
         max-width: 100%;
-        padding-top: 0.5em;
         order: 2;
     }
     
@@ -88,6 +87,19 @@
         }
 
     }
+
+    // under small using padding
+    @media screen and ($small) {
+        .paper-box-image {
+            order: 1;
+        }
+        
+        .paper-box-text {
+            padding-top: 0.5em;
+            order: 2;
+        }
+    }
+
 
 
 }
