@@ -47,15 +47,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
-    padding: 0.5em 0 0 1em;
+    padding: 0 0 0 1em; // 0.5em 0 0 1em
     
 
     .paper-box-image{
         justify-content: center;
         display: flex;
         width: 100%;
-        order: 1;
-        padding-bottom: 0.5em;
+        order: 2;
         img {
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
@@ -65,14 +64,14 @@
     
     .paper-box-text{
         max-width: 100%;
-        order: 2;
+        order: 1;
     }
     
     // exceed medium using padding
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
-            padding-bottom: 0.5em;
+            // padding-bottom: 0.5em;
             min-width: 200px;
             max-width: 40%;
             order: 2;
@@ -80,26 +79,13 @@
         
         .paper-box-text{
             justify-content: left;
-            padding-right: 1em;
             padding-top: 0.5em;
+            padding-right: 1em;
             max-width: 60%;
             order: 1;
         }
 
     }
-
-    // under small using padding
-    @media screen and (max-width: $small) {
-        .paper-box-image {
-            order: 1;
-        }
-        
-        .paper-box-text {
-            padding-top: 0.5em;
-            order: 2;
-        }
-    }
-
 
 
 }
