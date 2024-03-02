@@ -89,7 +89,7 @@
     }
 
     // under small using padding
-    @media screen and ($small) {
+    @media screen and (max-width: $small) {
         .paper-box-image {
             order: 1;
         }
