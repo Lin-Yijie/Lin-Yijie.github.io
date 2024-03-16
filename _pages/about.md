@@ -33,7 +33,7 @@ My research interests mainly focus on Multi-modal Learning and Multi-view Learni
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 - *2024.01*: &nbsp; One paper was accepted by International Conference
 on Learning Representations (ICLR 2024) as  **oral**.
-- *2024.12*: &nbsp; One paper was accepted by AAAI Conference on Artificial Intelligence (AAAI 2024). Congrats to Yiding.
+- *2023.12*: &nbsp; One paper was accepted by AAAI Conference on Artificial Intelligence (AAAI 2024). Congrats to Yiding.
 - *2023.07*: &nbsp; One paper was accepted by International Conference
 on Computer Vision (ICCV 2023).
 - *2022.10*: &nbsp; One paper was accepted at Findings of EMNLP 2022.
@@ -61,6 +61,9 @@ on Computer Vision (ICCV 2023).
 <a href="https://lin-yijie.github.io/projects/Norton/"><strong>Project</strong></a>
 \|
 <a href="https://github.com/XLearning-SCU/2024-ICLR-Norton"><strong>Code</strong></a>
+[![](https://img.shields.io/github/stars/XLearning-SCU/2024-ICLR-Norton?style=social&label=Stars)](https://github.com/XLearning-SCU/2024-ICLR-Norton)
+
+
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/multi-granularity-correspondence-learning-1/long-video-retrieval-background-removed-on)](https://paperswithcode.com/sota/long-video-retrieval-background-removed-on?p=multi-granularity-correspondence-learning-1)
 
