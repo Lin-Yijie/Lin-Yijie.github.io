@@ -31,6 +31,7 @@ My research interests mainly focus on Multi-modal Learning and Multi-view Learni
 
 # 🔥 News
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+- *2024.04*: &nbsp; One paper was accepted by IEEE Transactions on Systems, Man and Cybernetics: Systems. Congrats to Yuxin!
 - *2024.01*: &nbsp; One paper was accepted by International Conference
 on Learning Representations (ICLR 2024) as  **oral**.
 - *2023.12*: &nbsp; One paper was accepted by AAAI Conference on Artificial Intelligence (AAAI 2024). Congrats to Yiding.
