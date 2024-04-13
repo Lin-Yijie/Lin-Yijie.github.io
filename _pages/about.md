@@ -134,6 +134,8 @@ on Computer Vision (ICCV 2023).
 [<em>**ICCV’23**</em>] [Graph Matching with Bi-level Noisy Correspondence](https://arxiv.org/pdf/2212.04085) \\
 **Yijie Lin**, Mouxing Yang, Jun Yu, Peng Hu, Changqing Zhang, Xi Peng
 
+<a href="https://www.bilibili.com/video/BV1gH4y1H7MQ/?spm_id_from=333.337.search-card.all.click&vd_source=c4896e9b68d2c7a283fe99a0899df781"><strong>Video</strong></a>
+\|
 <a href="https://mp.weixin.qq.com/s/yGieWt0s9jPPRX6sG03KDw"><strong>中文简介</strong></a>
 \|
 <a href="https://github.com/Lin-Yijie/Graph-Matching-Networks/tree/main/COMMON"><strong>Code</strong></a>
