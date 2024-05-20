@@ -164,8 +164,10 @@ on Computer Vision (ICCV 2023).
 
 - [<em>**AAAI'24**</em>] [Decoupled Contrastive Multi-view Clustering with High-order Random Walks](https://arxiv.org/pdf/2308.11164.pdf), Yiding Lu, **Yijie Lin**, Mouxing Yang, Dezhong Peng, Peng Hu, Xi Peng \| <a href="https://github.com/XLearning-SCU/2024-AAAI-DIVIDE"><strong>Code</strong></a>
 
+- [<em>**TSMC'24**</em>] [UNITE: Multitask Learning With Sufficient Feature for Dense Prediction](https://ieeexplore.ieee.org/document/10534190), Yuxin Tian, **Yijie Lin**, Qing Ye, Jian Wang, Xi Peng, Jiancheng Lv  \| <a href="https://github.com/slyviacassell/Multi-task-UNITE"><strong>Code</strong></a>
 
 - [<em>**TNNLS'23**</em>] [Single-cell RNA-seq Debiased Clustering via Batch Effect Disentanglement](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10086540), Yunfan Li, **Yijie Lin**, Han Luo, Peng Hu, Dezhong Peng, Xi Peng 
+
 
 - [<em>**TIP'22**</em>] [Unsupervised Neural Rendering for Image Hazing](https://ieeexplore.ieee.org/document/9788526/), Boyun Li, **Yijie Lin**, Xiao Liu, Peng Hu, Jiancheng Lv, Xi Peng
 
