@@ -60,6 +60,10 @@ on Computer Vision (ICCV 2023).
 \|
 <a href="https://mp.weixin.qq.com/s/q0kL62AM3G1wscTq92HIxA"><strong>中文简介</strong></a>
 \|
+<a href="https://iclr.cc/media/iclr-2024/Slides/19303.pdf"><strong>Slides</strong></a>
+\|
+<a href="https://iclr.cc/media/PosterPDFs/ICLR%202024/19303.png?t=1714532472.399705"><strong>Poster</strong></a>
+\|
 <a href="https://lin-yijie.github.io/projects/Norton/"><strong>Project</strong></a>
 <!-- \| -->
 <!-- <a href="https://github.com/XLearning-SCU/2024-ICLR-Norton"><strong>Code</strong></a> -->
