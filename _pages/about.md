@@ -32,15 +32,14 @@ For exceptional works and insights on noisy correspondence, I invite you to expl
 
 # 🔥 News
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+- *2024.06*: &nbsp; We completed a comprehensive <a href="https://link.springer.com/content/pdf/10.1007/s44336-024-00001-w.pdf">Survey</a> on deep clustering and its benchmarks.
 - *2024.04*: &nbsp; One paper was accepted by IEEE Transactions on Systems, Man and Cybernetics: Systems. Congrats to Yuxin!
-- *2024.01*: &nbsp; One paper was accepted by International Conference
-on Learning Representations (ICLR 2024) as  **oral**.
+- *2024.01*: &nbsp; One paper was accepted by International Conference on Learning Representations (ICLR 2024) as  **oral**.
 - *2023.12*: &nbsp; One paper was accepted by AAAI Conference on Artificial Intelligence (AAAI 2024). Congrats to Yiding.
-- *2023.07*: &nbsp; One paper was accepted by International Conference
-on Computer Vision (ICCV 2023).
+- *2023.07*: &nbsp; One paper was accepted by International Conference on Computer Vision (ICCV 2023).
 - *2022.10*: &nbsp; One paper was accepted at Findings of EMNLP 2022.
 - *2022.08*: &nbsp; One paper was accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
-- *2022.05*: &nbsp; One paper was accepted by IEEE Transactions on Image Processing  (TIP).
+<!-- - *2022.05*: &nbsp; One paper was accepted by IEEE Transactions on Image Processing  (TIP). -->
 - *2021.03*: &nbsp; One paper was accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2021), Virtual-only Conference, Jun, 2021.
 
 # 📝 Publications 
@@ -163,18 +162,17 @@ on Computer Vision (ICCV 2023).
 \|
 <a href="https://github.com/XLearning-SCU/2022-TPAMI-DCP"><strong>Code</strong></a> -->
 
-
 - [<em>**EMNLP Findings'22**</em>] [Improve Interpretability of Neural Networks via Sparse Contrastive Coding](https://aclanthology.org/2022.findings-emnlp.32.pdf), Junhong Liu\*,
 **Yijie Lin**\*, Liang Jiang, Jia Liu, Zujie Wen, Xi Peng
 
-- [<em>**AAAI'24**</em>] [Decoupled Contrastive Multi-view Clustering with High-order Random Walks](https://arxiv.org/pdf/2308.11164.pdf), Yiding Lu, **Yijie Lin**, Mouxing Yang, Dezhong Peng, Peng Hu, Xi Peng \| <a href="https://github.com/XLearning-SCU/2024-AAAI-DIVIDE"><strong>Code</strong></a>
-[![](https://img.shields.io/github/stars/XLearning-SCU/2024-AAAI-DIVIDE?style=social&label=Stars)](https://github.com/XLearning-SCU/2024-AAAI-DIVIDE)
-
+- [<em>**Vicinagearth'24**</em>] [A survey on deep clustering: from the prior perspective](https://link.springer.com/content/pdf/10.1007/s44336-024-00001-w.pdf), Yiding Lu, Haobin Li, Yunfan Li, **Yijie Lin**, Xi Peng 
 
 - [<em>**TSMC'24**</em>] [UNITE: Multitask Learning With Sufficient Feature for Dense Prediction](https://ieeexplore.ieee.org/document/10534190), Yuxin Tian, **Yijie Lin**, Qing Ye, Jian Wang, Xi Peng, Jiancheng Lv  \| <a href="https://github.com/slyviacassell/Multi-task-UNITE"><strong>Code</strong></a>
 
 - [<em>**TNNLS'23**</em>] [Single-cell RNA-seq Debiased Clustering via Batch Effect Disentanglement](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10086540), Yunfan Li, **Yijie Lin**, Han Luo, Peng Hu, Dezhong Peng, Xi Peng 
 
+- [<em>**EMNLP Findings'22**</em>] [Improve Interpretability of Neural Networks via Sparse Contrastive Coding](https://aclanthology.org/2022.findings-emnlp.32.pdf), Junhong Liu\*,
+**Yijie Lin**\*, Liang Jiang, Jia Liu, Zujie Wen, Xi Peng
 
 - [<em>**TIP'22**</em>] [Unsupervised Neural Rendering for Image Hazing](https://ieeexplore.ieee.org/document/9788526/), Boyun Li, **Yijie Lin**, Xiao Liu, Peng Hu, Jiancheng Lv, Xi Peng
 
