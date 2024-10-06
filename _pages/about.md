@@ -162,6 +162,8 @@ For exceptional works and insights on noisy correspondence, I invite you to expl
 \|
 <a href="https://github.com/XLearning-SCU/2022-TPAMI-DCP"><strong>Code</strong></a> -->
 
+- [<em>**NeurIPS'24**</em>] Robust Contrastive Multi-view Clustering against Dual Noisy Correspondence, Ruiming Guo, **Yijie Lin**, Xi Peng, Mouxing Yang, Peng Hu
+
 - [<em>**AAAI'24**</em>] [Decoupled Contrastive Multi-view Clustering with High-order Random Walks](https://arxiv.org/pdf/2308.11164.pdf), Yiding Lu, **Yijie Lin**, Mouxing Yang, Dezhong Peng, Peng Hu, Xi Peng \| <a href="https://github.com/XLearning-SCU/2024-AAAI-DIVIDE"><strong>Code</strong></a>
 [![](https://img.shields.io/github/stars/XLearning-SCU/2024-AAAI-DIVIDE?style=social&label=Stars)](https://github.com/XLearning-SCU/2024-AAAI-DIVIDE)
 
