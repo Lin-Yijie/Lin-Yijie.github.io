@@ -23,6 +23,8 @@ I’m a Ph.D. student from College of Computer Science, Sichuan Univerisity, adv
 My research interests mainly focus on Multi-modal Learning and Multi-view Learning, especially the applications in open scenarios, e.g., missing modality and noisy correspondence. I am focusing on video-language currently.
 For exceptional works and insights on noisy correspondence, I invite you to explore our repository [Noisy Correspondence Summary](https://github.com/XLearning-SCU/Awesome-Noisy-Correspondence).
 
+I am currently seeking postdoctoral opportunities. If you have any advice or are interested in exploring academic collaborations, please feel free to contact me. I look forward to your insights and suggestions.
+
 <!-- (sentence-visual pairs). -->
 
 <!-- My research interests include Multimodal Learning and Unsupervised Learning, which can be unified to the framework of Representation Learning. -->
@@ -162,7 +164,8 @@ For exceptional works and insights on noisy correspondence, I invite you to expl
 \|
 <a href="https://github.com/XLearning-SCU/2022-TPAMI-DCP"><strong>Code</strong></a> -->
 
-- [<em>**NeurIPS'24**</em>] Robust Contrastive Multi-view Clustering against Dual Noisy Correspondence, Ruiming Guo, **Yijie Lin**, Xi Peng, Mouxing Yang, Peng Hu
+- [<em>**NeurIPS'24**</em>] [Robust Contrastive Multi-view Clustering against Dual Noisy Correspondence](http://pengxi.me/wp-content/uploads/2024/11/Robust_Contrastive_Multi-view_Clustering_against_Dual_Noisy_Correspondence.pdf), Ruiming Guo, Mouxing Yang, **Yijie Lin**, Xi Peng,  Peng Hu 
+\| <a href="https://github.com/XLearning-SCU/2024-NeurIPS-CANDY"><strong>Code</strong></a>
 
 - [<em>**AAAI'24**</em>] [Decoupled Contrastive Multi-view Clustering with High-order Random Walks](https://arxiv.org/pdf/2308.11164.pdf), Yiding Lu, **Yijie Lin**, Mouxing Yang, Dezhong Peng, Peng Hu, Xi Peng \| <a href="https://github.com/XLearning-SCU/2024-AAAI-DIVIDE"><strong>Code</strong></a>
 [![](https://img.shields.io/github/stars/XLearning-SCU/2024-AAAI-DIVIDE?style=social&label=Stars)](https://github.com/XLearning-SCU/2024-AAAI-DIVIDE)
