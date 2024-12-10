@@ -34,7 +34,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 
 # 🔥 News
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-- *2024.12*: &nbsp; One paper about diffusion clustering was accepted by AAAI Conference on Artificial Intelligence (AAAI 2025). Congrats to Yuanyang.
+- *2024.12*: &nbsp; One paper about diffusion clustering was accepted by AAAI Conference on Artificial Intelligence. Congrats to Yuanyang.
 - *2024.06*: &nbsp; We completed a comprehensive <a href="https://link.springer.com/content/pdf/10.1007/s44336-024-00001-w.pdf">survey on deep clustering</a> from the prior perspective.
 - *2024.04*: &nbsp; One paper was accepted by IEEE Transactions on Systems, Man and Cybernetics: Systems.
 - *2024.01*: &nbsp; One paper was accepted by International Conference on Learning Representations (ICLR 2024) as  **oral**.
@@ -43,7 +43,8 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 - *2022.10*: &nbsp; One paper was accepted at Findings of EMNLP 2022.
 - *2022.08*: &nbsp; One paper was accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
 <!-- - *2022.05*: &nbsp; One paper was accepted by IEEE Transactions on Image Processing  (TIP). -->
-- *2021.03*: &nbsp; One paper was accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2021), Virtual-only Conference, Jun, 2021.
+- *2021.03*: &nbsp; One paper was accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2021), Jun, 2021. 
+<!-- Virtual-only Conference -->
 
 # 📝 Publications 
 
