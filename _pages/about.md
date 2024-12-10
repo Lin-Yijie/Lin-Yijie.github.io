@@ -34,8 +34,9 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 
 # 🔥 News
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+- *2024.12*: &nbsp; One paper about diffusion clustering was accepted by AAAI Conference on Artificial Intelligence (AAAI 2025). Congrats to Yuanyang.
 - *2024.06*: &nbsp; We completed a comprehensive <a href="https://link.springer.com/content/pdf/10.1007/s44336-024-00001-w.pdf">survey on deep clustering</a> from the prior perspective.
-- *2024.04*: &nbsp; One paper was accepted by IEEE Transactions on Systems, Man and Cybernetics: Systems. Congrats to Yuxin!
+- *2024.04*: &nbsp; One paper was accepted by IEEE Transactions on Systems, Man and Cybernetics: Systems.
 - *2024.01*: &nbsp; One paper was accepted by International Conference on Learning Representations (ICLR 2024) as  **oral**.
 - *2023.12*: &nbsp; One paper was accepted by AAAI Conference on Artificial Intelligence (AAAI 2024). Congrats to Yiding.
 - *2023.07*: &nbsp; One paper was accepted by International Conference on Computer Vision (ICCV 2023).
@@ -164,6 +165,8 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 \|
 <a href="https://github.com/XLearning-SCU/2022-TPAMI-DCP"><strong>Code</strong></a> -->
 
+- [<em>**AAAI'25**</em>] Incomplete Multi-view Clustering via Diffusion Contrastive Generation, Yuanyang Zhang*, Yijie Lin*, Weiqing Yan, Li Yao, Xinhang Wan, Guangyuan Li, Chao Zhang, Guanzhou Ke, Jie Xu
+
 - [<em>**NeurIPS'24**</em>] [Robust Contrastive Multi-view Clustering against Dual Noisy Correspondence](http://pengxi.me/wp-content/uploads/2024/11/Robust_Contrastive_Multi-view_Clustering_against_Dual_Noisy_Correspondence.pdf), Ruiming Guo, Mouxing Yang, **Yijie Lin**, Xi Peng,  Peng Hu 
 \| <a href="https://github.com/XLearning-SCU/2024-NeurIPS-CANDY"><strong>Code</strong></a>
 
@@ -211,10 +214,10 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 <!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.  -->
 
 <!-- - Journal Reviewer of IEEE Transactions on Knowledge and Data Engineering, IEEE Transactions on Neural Networks and Learning Systems, IEEE Transactions on Systems, Man and Cybernetics: Systems. -->
-- **Journal Reviewer**: IEEE TKDE, IEEE TNNLS, IEEE TAI, and more.
+- **Journal Reviewer**: IEEE TIP, IEEE TKDE, IEEE TNNLS, IEEE TAI, and more.
 <!-- IEEE TCYB, IEEE TAI, IEEE TSMC, Machine Learning, Neural Networks, and more. -->
 
-- **Conference Reviewer**: ICLR, NeurIPS, ICML, CVPR, ICCV, ECCV, AAAI, and more.
+- **Conference Reviewer**: ICLR, NeurIPS, ICML, CVPR, ICCV, ECCV, AAAI, ACMMM, and more.
 <!-- - Conference Reviewer: of ICLR 2023, NeurIPS 2023, ICML 2023, ICCV 2023, AAAI 2023. -->
 <!-- , CICAI 2021-2022, ICIG 2021, ACML 2021, PRCV 2021-2022 -->
 
