@@ -41,7 +41,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 - *2025.01*: &nbsp; One paper about AI4Science was accepted by Nature Communications!
 - *2024.12*: &nbsp; One paper about diffusion clustering was accepted by AAAI Conference on Artificial Intelligence. Congrats to Yuanyang.
-- *2024.06*: &nbsp; We completed a comprehensive <a href="https://link.springer.com/content/pdf/10.1007/s44336-024-00001-w.pdf">survey on deep clustering</a> from the prior perspective. [中文简介](https://zhuanlan.zhihu.com/p/12059278751)
+- *2024.06*: &nbsp; We completed a comprehensive <a href="https://link.springer.com/content/pdf/10.1007/s44336-024-00001-w.pdf">survey on deep clustering</a> from the prior perspective. <a href="https://zhuanlan.zhihu.com/p/12059278751"><strong>中文简介</strong></a>
 - *2024.04*: &nbsp; One paper was accepted by IEEE Transactions on Systems, Man and Cybernetics: Systems.
 - *2024.01*: &nbsp; One paper was accepted by International Conference on Learning Representations (ICLR 2024) as  **oral**.
 - *2023.12*: &nbsp; One paper was accepted by AAAI Conference on Artificial Intelligence (AAAI 2024). Congrats to Yiding.
@@ -182,7 +182,8 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 - [<em>**AAAI'24**</em>] [Decoupled Contrastive Multi-view Clustering with High-order Random Walks](https://arxiv.org/pdf/2308.11164.pdf), Yiding Lu, **Yijie Lin**, Mouxing Yang, Dezhong Peng, Peng Hu, Xi Peng \| <a href="https://github.com/XLearning-SCU/2024-AAAI-DIVIDE"><strong>Code</strong></a>
 [![](https://img.shields.io/github/stars/XLearning-SCU/2024-AAAI-DIVIDE?style=social&label=Stars)](https://github.com/XLearning-SCU/2024-AAAI-DIVIDE)
 
-- [<em>**Vicinagearth'24**</em>] [A survey on deep clustering: from the prior perspective](https://link.springer.com/content/pdf/10.1007/s44336-024-00001-w.pdf), Yiding Lu, Haobin Li, Yunfan Li, **Yijie Lin**, Xi Peng \| [中文简介](https://zhuanlan.zhihu.com/p/12059278751)
+- [<em>**Vicinagearth'24**</em>] [A survey on deep clustering: from the prior perspective](https://link.springer.com/content/pdf/10.1007/s44336-024-00001-w.pdf), Yiding Lu, Haobin Li, Yunfan Li, **Yijie Lin**, Xi Peng \| <a href="https://zhuanlan.zhihu.com/p/12059278751"><strong>中文简介</strong></a>
+
 
 - [<em>**TSMC'24**</em>] [UNITE: Multitask Learning With Sufficient Feature for Dense Prediction](https://ieeexplore.ieee.org/document/10534190), Yuxin Tian, **Yijie Lin**, Qing Ye, Jian Wang, Xi Peng, Jiancheng Lv  \| <a href="https://github.com/slyviacassell/Multi-task-UNITE"><strong>Code</strong></a>
 
