@@ -172,7 +172,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 \|
 <a href="https://github.com/XLearning-SCU/2022-TPAMI-DCP"><strong>Code</strong></a> -->
 
-- [<em>**NCOMMS'25**</em>] MetaQ: fast, scalable and accurate metacell inference via single-cell quantization, Yunfan Li, Hancong Li, **Yijie Lin**, Dan Zhang, Dezhong Peng, Xiting Liu, Jie Xie, Peng Hu, Lu Chen,  Han Luo, Xi Peng
+- [<em>**Nature Communications'25**</em>] MetaQ: fast, scalable and accurate metacell inference via single-cell quantization, Yunfan Li, Hancong Li, **Yijie Lin**, Dan Zhang, Dezhong Peng, Xiting Liu, Jie Xie, Peng Hu, Lu Chen,  Han Luo, Xi Peng
 
 - [<em>**AAAI'25**</em>] Incomplete Multi-view Clustering via Diffusion Contrastive Generation, Yuanyang Zhang\*, **Yijie Lin**\*, Weiqing Yan, Li Yao, Xinhang Wan, Guangyuan Li, Chao Zhang, Guanzhou Ke, Jie Xu
 
