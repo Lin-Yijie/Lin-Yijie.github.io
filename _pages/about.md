@@ -21,9 +21,9 @@ redirect_from:
 I am a Ph.D. student in the College of Computer Science at Sichuan University, advised by Prof.[Xi Peng](http://pengxi.me). 
 
 My research interests mainly focus on Multi-modal Learning and major results are briefly divided into:
-i) Robust Multi-modal Learning: I have worked extensively on tackling challenges such as modality missing (CVPR’21, TPAMI’22, AAAI’24-25) and noisy correspondence (ICCV’23, ICLR’24, NeurIPS’24) in image/video-text and image-image data. For a comprehensive overview of our work and insights on noisy correspondence, you can explore our repository [Noisy Correspondence Summary](https://github.com/XLearning-SCU/Awesome-Noisy-Correspondence).
-ii) Interactive Multi-modal Learning: I believe the future of multi-modal learning to center around interactions—between users, models, and external knowledge. Some of my recent work is currently under review.
-iii) AI4LifeScience: My work in this domain focuses on single-cell and multi-omics analysis, tackling key challenges such as representative cell selection (Nature Communications’25) and batch effect correction (TNNLS’23).
+- i) Robust Multi-modal Learning: I have worked extensively on tackling challenges such as modality missing (CVPR’21, TPAMI’22, AAAI’24-25) and noisy correspondence (ICCV’23, ICLR’24, NeurIPS’24) in image/video-text and image-image data. For a comprehensive overview of our work and insights on noisy correspondence, you can explore our repository [Noisy Correspondence Summary](https://github.com/XLearning-SCU/Awesome-Noisy-Correspondence).
+- ii) Interactive Multi-modal Learning: I believe the future of multi-modal learning to center around interactions—between users, models, and external knowledge. Some of my recent work is currently under review.
+- iii) AI4LifeScience: My work in this domain focuses on single-cell and multi-omics analysis, tackling key challenges such as representative cell selection (Nature Communications’25) and batch effect correction (TNNLS’23).
 
 <!-- My research interests mainly focus on Multi-modal Learning and Multi-view Learning, especially the applications in open scenarios, e.g., missing modality and noisy correspondence. I am focusing on video-language currently. -->
 <!-- For exceptional works and insights on noisy correspondence, I invite you to explore our repository [Noisy Correspondence Summary](https://github.com/XLearning-SCU/Awesome-Noisy-Correspondence). -->
