@@ -18,10 +18,15 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <!-- Hi! My name is Yijie Lin.  -->
-I’m a Ph.D. student from College of Computer Science, Sichuan Univerisity, advised by Prof.[Xi Peng](http://pengxi.me). 
+I am a Ph.D. student in the College of Computer Science at Sichuan University, advised by Prof.[Xi Peng](http://pengxi.me). 
 
-My research interests mainly focus on Multi-modal Learning and Multi-view Learning, especially the applications in open scenarios, e.g., missing modality and noisy correspondence. I am focusing on video-language currently.
-For exceptional works and insights on noisy correspondence, I invite you to explore our repository [Noisy Correspondence Summary](https://github.com/XLearning-SCU/Awesome-Noisy-Correspondence).
+My research interests mainly focus on Multi-modal Learning and major results are briefly divided into:
+i) Robust Multi-modal Learning: I have worked extensively on tackling challenges such as modality missing (CVPR’21, TPAMI’22, AAAI’24-25) and noisy correspondence (ICCV’23, ICLR’24, NeurIPS’24) in image/video-text and image-image data. For a comprehensive overview of our work and insights on noisy correspondence, you can explore our repository [Noisy Correspondence Summary](https://github.com/XLearning-SCU/Awesome-Noisy-Correspondence).
+ii) Interactive Multi-modal Learning: I believe the future of multi-modal learning to center around interactions—between users, models, and external knowledge. Some of my recent work is currently under review.
+iii) AI4LifeScience: My work in this domain focuses on single-cell and multi-omics analysis, tackling key challenges such as representative cell selection (Nature Communications’25) and batch effect correction (TNNLS’23).
+
+<!-- My research interests mainly focus on Multi-modal Learning and Multi-view Learning, especially the applications in open scenarios, e.g., missing modality and noisy correspondence. I am focusing on video-language currently. -->
+<!-- For exceptional works and insights on noisy correspondence, I invite you to explore our repository [Noisy Correspondence Summary](https://github.com/XLearning-SCU/Awesome-Noisy-Correspondence). -->
 
 I am currently seeking postdoctoral opportunities. If you have any advice or are interested in exploring academic collaborations, please feel free to contact me. I look forward to your insights and suggestions.
 
@@ -34,6 +39,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 
 # 🔥 News
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+- *2025.01*: &nbsp; One paper about AI4Science was accepted by Nature Communications!
 - *2024.12*: &nbsp; One paper about diffusion clustering was accepted by AAAI Conference on Artificial Intelligence. Congrats to Yuanyang.
 - *2024.06*: &nbsp; We completed a comprehensive <a href="https://link.springer.com/content/pdf/10.1007/s44336-024-00001-w.pdf">survey on deep clustering</a> from the prior perspective.
 - *2024.04*: &nbsp; One paper was accepted by IEEE Transactions on Systems, Man and Cybernetics: Systems.
@@ -165,6 +171,8 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 <a href="https://cs.scu.edu.cn/info/1246/17111.htm"><strong>中文简介</strong></a>
 \|
 <a href="https://github.com/XLearning-SCU/2022-TPAMI-DCP"><strong>Code</strong></a> -->
+
+- [<em>**NCOMMS'25**</em>] MetaQ: fast, scalable and accurate metacell inference via single-cell quantization, Yunfan Li, Hancong Li, **Yijie Lin**, Dan Zhang, Dezhong Peng, Xiting Liu, Jie Xie, Peng Hu, Lu Chen,  Han Luo, Xi Peng
 
 - [<em>**AAAI'25**</em>] Incomplete Multi-view Clustering via Diffusion Contrastive Generation, Yuanyang Zhang\*, **Yijie Lin**\*, Weiqing Yan, Li Yao, Xinhang Wan, Guangyuan Li, Chao Zhang, Guanzhou Ke, Jie Xu
 
