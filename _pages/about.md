@@ -45,11 +45,11 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 - *2024.04*: &nbsp; One paper was accepted by IEEE Transactions on Systems, Man and Cybernetics: Systems.
 - *2024.01*: &nbsp; One paper was accepted by International Conference on Learning Representations (ICLR 2024) as  **oral**.
 - *2023.12*: &nbsp; One paper was accepted by AAAI Conference on Artificial Intelligence (AAAI 2024). Congrats to Yiding.
-- *2023.07*: &nbsp; One paper was accepted by International Conference on Computer Vision (ICCV 2023).
-- *2022.10*: &nbsp; One paper was accepted at Findings of EMNLP 2022.
+<!-- - *2023.07*: &nbsp; One paper was accepted by International Conference on Computer Vision (ICCV 2023). -->
+<!-- - *2022.10*: &nbsp; One paper was accepted at Findings of EMNLP 2022. -->
 - *2022.08*: &nbsp; One paper was accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
 <!-- - *2022.05*: &nbsp; One paper was accepted by IEEE Transactions on Image Processing  (TIP). -->
-- *2021.03*: &nbsp; One paper was accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2021), Jun, 2021. 
+<!-- - *2021.03*: &nbsp; One paper was accepted by IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2021), Jun, 2021.  -->
 <!-- Virtual-only Conference -->
 
 # 📝 Publications 
