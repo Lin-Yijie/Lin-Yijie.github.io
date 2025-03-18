@@ -176,7 +176,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 \| <a href="https://github.com/XLearning-SCU/MetaQ"><strong>Code</strong></a>
 
 
-- [<em>**AAAI'25**</em>] Incomplete Multi-view Clustering via Diffusion Contrastive Generation, Yuanyang Zhang\*, **Yijie Lin**\*, Weiqing Yan, Li Yao, Xinhang Wan, Guangyuan Li, Chao Zhang, Guanzhou Ke, Jie Xu
+- [<em>**AAAI'25**</em>] [Incomplete Multi-view Clustering via Diffusion Contrastive Generation](https://arxiv.org/pdf/2503.09185), Yuanyang Zhang\*, **Yijie Lin**\*, Weiqing Yan, Li Yao, Xinhang Wan, Guangyuan Li, Chao Zhang, Guanzhou Ke, Jie Xu
 
 - [<em>**NeurIPS'24**</em>] [Robust Contrastive Multi-view Clustering against Dual Noisy Correspondence](http://pengxi.me/wp-content/uploads/2024/11/Robust_Contrastive_Multi-view_Clustering_against_Dual_Noisy_Correspondence.pdf), Ruiming Guo, Mouxing Yang, **Yijie Lin**, Xi Peng,  Peng Hu 
 \| <a href="https://github.com/XLearning-SCU/2024-NeurIPS-CANDY"><strong>Code</strong></a>
@@ -202,6 +202,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 <!-- under review -->
 
 # 🎖 Honors and Awards
+- *2024.12* Tencent Scholarship (Outstanding award)
 - *2023.10* National Scholarship (PhD student)
 - *2022.11* [Huawei Scholarship](https://ygb.scu.edu.cn/info/1007/2515.htm) (First prize)  
 <!-- at Sichuan University -->
@@ -229,7 +230,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 - **Journal Reviewer**: IEEE TIP, IEEE TKDE, IEEE TNNLS, IEEE TAI, and more.
 <!-- IEEE TCYB, IEEE TAI, IEEE TSMC, Machine Learning, Neural Networks, and more. -->
 
-- **Conference Reviewer**: ICLR, NeurIPS, ICML, CVPR, ICCV, ECCV, AAAI, ACMMM, and more.
+- **Conference Reviewer**: ICLR, NeurIPS, ICML, CVPR, ICCV, ECCV, ACL, AAAI, ACMMM, and more.
 <!-- - Conference Reviewer: of ICLR 2023, NeurIPS 2023, ICML 2023, ICCV 2023, AAAI 2023. -->
 <!-- , CICAI 2021-2022, ICIG 2021, ACML 2021, PRCV 2021-2022 -->
 
