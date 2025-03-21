@@ -202,11 +202,11 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 <!-- under review -->
 
 # 🎖 Honors and Awards
-- *2024.12* Tencent Scholarship (Outstanding award)
+- *2024.12* Tencent Scholarship (Outstanding award at SCU)
 - *2023.10* National Scholarship (PhD student)
-- *2022.11* [Huawei Scholarship](https://ygb.scu.edu.cn/info/1007/2515.htm) (First prize)  
+- *2022.11* [Huawei Scholarship](https://ygb.scu.edu.cn/info/1007/2515.htm) (First prize at SCU)  
 <!-- at Sichuan University -->
-- *2021.10* Innovation Scholarship (PhD student) 
+<!-- - *2021.10* Innovation Scholarship (PhD student)  -->
 - *2019.09* [National Scholarship](http://www.moe.gov.cn/srcsite/A05/s7505/201912/t20191217_412368.html) (Undergraduate, Top 1%)
 
 
