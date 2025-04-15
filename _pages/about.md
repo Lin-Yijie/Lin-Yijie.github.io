@@ -54,6 +54,36 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 
 # 📝 Publications 
 
+<div class='paper-box'>
+<div class='paper-box-image'><div>
+<!-- <div class="badge">ICLR 2024</div> -->
+<img src='images/papers/llava-reid.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+
+[<em>**Arxiv’25**</em>] [LLaVA-ReID: Selective Multi-image Questioner
+for Interactive Person Re-Identification](https://arxiv.org/pdf/2504.10174) \\
+Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**†, Xi Peng†
+
+<a href="https://github.com/XLearning-SCU/LLaVA-ReID"><strong>Code</strong></a>
+<!-- \| -->
+<!-- <a href="https://github.com/XLearning-SCU/2024-ICLR-Norton"><strong>Code</strong></a> -->
+[![](https://img.shields.io/github/stars/XLearning-SCU/LLaVA-ReID?style=social&label=Stars)](https://github.com/XLearning-SCU/LLaVA-ReID)
+
+
+<!-- <a href="https://mp.weixin.qq.com/s/yGieWt0s9jPPRX6sG03KDw"><strong>中文简介</strong></a> -->
+<!-- \| -->
+<!-- <a href="https://github.com/Lin-Yijie/Graph-Matching-Networks/tree/main/COMMON"><strong>Code</strong></a> -->
+<!-- [![](https://img.shields.io/github/stars/Lin-Yijie/Graph-Matching-Networks?style=social&label=Stars)](https://github.com/Lin-Yijie/Graph-Matching-Networks/tree/main/COMMON) -->
+<!-- <strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:Y0pCki6q_DkC'></span></strong> -->
+
+
+- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
+
+
+</div>
+</div>
+
 
 <div class='paper-box'>
 <div class='paper-box-image'><div>
