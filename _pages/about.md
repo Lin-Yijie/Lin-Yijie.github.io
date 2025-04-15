@@ -54,6 +54,8 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 
 # 📝 Publications 
 
+\* Equal contribution \† Corresponding author
+
 <div class='paper-box'>
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
@@ -63,7 +65,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 
 [<em>**Arxiv’25**</em>] [LLaVA-ReID: Selective Multi-image Questioner
 for Interactive Person Re-Identification](https://arxiv.org/pdf/2504.10174) \\
-Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**†, Xi Peng†
+Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**\†, Xi Peng\†
 
 <a href="https://github.com/XLearning-SCU/LLaVA-ReID"><strong>Code</strong></a>
 <!-- \| -->
@@ -78,8 +80,7 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**†, Xi Peng†
 <!-- <strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:Y0pCki6q_DkC'></span></strong> -->
 
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
-
+- Introduce the first dialogue-based person re-identification task.
 
 </div>
 </div>
