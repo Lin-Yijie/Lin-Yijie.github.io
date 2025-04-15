@@ -54,7 +54,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 
 # 📝 Publications 
 
-\* Equal contribution \† Corresponding author
+\* Equal contribution <sup>†</sup> Corresponding author
 
 <div class='paper-box'>
 <div class='paper-box-image'><div>
@@ -65,7 +65,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 
 [<em>**Arxiv’25**</em>] [LLaVA-ReID: Selective Multi-image Questioner
 for Interactive Person Re-Identification](https://arxiv.org/pdf/2504.10174) \\
-Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**\†, Xi Peng\†
+Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi Peng<sup>†</sup>
 
 <a href="https://github.com/XLearning-SCU/LLaVA-ReID"><strong>Code</strong></a>
 <!-- \| -->
