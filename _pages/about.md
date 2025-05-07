@@ -22,7 +22,7 @@ I am a Ph.D. student in the College of Computer Science at Sichuan University, a
 
 My research mainly focuses on **Multi-modal Learning**, with contributions in:
 - i) Robust Multi-modal Learning: I have worked extensively on tackling challenges such as modality missing (CVPR’21, TPAMI’22, AAAI’24-25) and noisy correspondence (ICCV’23, ICLR’24, NeurIPS’24) in image/video-text and image-image data. For a comprehensive overview of our work and insights on noisy correspondence, you can explore our repository [Noisy Correspondence Summary](https://github.com/XLearning-SCU/Awesome-Noisy-Correspondence).
-- ii) Interactive Multi-modal Learning: I believe the future of multi-modal learning to center around interactions—between users, tools, and external knowledge (ICML'25).
+- ii) Interactive Multi-modal Learning: I believe the future of multi-modal learning to center around interactions—between users (ICML'25, LLaVA-ReID), tools (ICML'25, VISA), and external knowledge.
 - iii) Bioinformatics: My work in this domain focuses on single-cell and multi-omics analysis, tackling key challenges such as representative cell selection (Nature Communications’25) and batch effect correction (TNNLS’23).
 
 <!-- My research interests mainly focus on Multi-modal Learning and Multi-view Learning, especially the applications in open scenarios, e.g., missing modality and noisy correspondence. I am focusing on video-language currently. -->
