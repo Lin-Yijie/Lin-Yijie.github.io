@@ -203,6 +203,10 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 \|
 <a href="https://github.com/XLearning-SCU/2022-TPAMI-DCP"><strong>Code</strong></a> -->
 
+
+- [<em>**ICML'25**</em>] Visual Abstraction: A Plug-and-Play Approach for Text-Visual Retrieval,Guofeng Ding, Yiding Lu, Peng Hu, Mouxing Yang, **Yijie Lin**<sup>†</sup>, Xi Peng<sup>†</sup>
+
+
 - [<em>**Nature Communications'25**</em>] [MetaQ: fast, scalable and accurate metacell inference via single-cell quantization](https://www.nature.com/articles/s41467-025-56424-6.pdf), Yunfan Li, Hancong Li, **Yijie Lin**, Dan Zhang, Dezhong Peng, Xiting Liu, Jie Xie, Peng Hu, Lu Chen,  Han Luo, Xi Peng
 \| <a href="https://github.com/XLearning-SCU/MetaQ"><strong>Code</strong></a>
 
