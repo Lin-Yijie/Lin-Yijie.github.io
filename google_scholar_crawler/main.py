@@ -2,19 +2,20 @@ from scholarly import scholarly, ProxyGenerator
 import jsonpickle
 import json
 from datetime import datetime
+import time
 import os
 
 
-# # Setup proxy
-# pg = ProxyGenerator()
-# pg.FreeProxies()  # Use free rotating proxies
-# scholarly.use_proxy(pg)
+# Setup proxy
+pg = ProxyGenerator()
+pg.FreeProxies()  # Use free rotating proxies
+scholarly.use_proxy(pg)
 
-# author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
-# scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
 
-max_attempts = 5
-wait_seconds = 60  # 10 minutes
+max_attempts = 100
+wait_seconds = 600  # 10 minutes
 
 for attempt in range(1, max_attempts + 1):
     try:
@@ -32,7 +33,7 @@ for attempt in range(1, max_attempts + 1):
         print(f"Attempt {attempt} failed with error: {e}")
         time.sleep(wait_seconds)
 else:
-    print("All 5 attempts failed.")
+    print("All 100 attempts failed.")
 
 name = author['name']
 author['updated'] = str(datetime.now())
