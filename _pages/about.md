@@ -91,7 +91,7 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 <img src='images/papers/visa.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[<em>**ICML'25**</em>] [Visual Abstraction: A Plug-and-Play Approach for Text-Visual Retrieval](https://github.com/Lin-Yijie/Lin-Yijie.github.io/blob/main/images/papers/2025-ICML-VISA.pdf), Guofeng Ding, Yiding Lu, Peng Hu, Mouxing Yang, **Yijie Lin**<sup>†</sup>, Xi Peng<sup>†</sup>
+[<em>**ICML'25**</em>] [Visual Abstraction: A Plug-and-Play Approach for Text-Visual Retrieval](https://github.com/Lin-Yijie/Lin-Yijie.github.io/blob/main/assets/papers/2025-ICML-VISA.pdf), Guofeng Ding, Yiding Lu, Peng Hu, Mouxing Yang, **Yijie Lin**<sup>†</sup>, Xi Peng<sup>†</sup>
 
 <a href="https://github.com/XLearning-SCU/2025-ICML-VISA"><strong>Code</strong></a>
 <!-- \| -->
@@ -109,7 +109,7 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 <div class='paper-box'>
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
-<img src='images/papers/norton.jpg' alt="sym" width="100%"></div></div>
+<img src='assets/papers/norton.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -156,7 +156,7 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 
 <div class='paper-box-image'><div>
 <!-- <div class="badge">CVPR 2021, TPAMI 2022</div> -->
-<img src='images/papers/completer.jpg' alt="sym" width="100%"></div></div>
+<img src='assets/papers/completer.jpg' alt="sym" width="100%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
@@ -193,7 +193,7 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 <div class='paper-box'>
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICCV 2023</div> -->
-<img src='images/papers/common.jpg' alt="sym" width="100%"></div></div>
+<img src='assets/papers/common.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**ICCV’23**</em>] [Graph Matching with Bi-level Noisy Correspondence](https://arxiv.org/pdf/2212.04085) \\
