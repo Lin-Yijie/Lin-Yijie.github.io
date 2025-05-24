@@ -99,7 +99,8 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 [![](https://img.shields.io/github/stars/XLearning-SCU/2025-ICML-VISA?style=social&label=Stars)](https://github.com/XLearning-SCU/2025-ICML-VISA)
 
 
-- A training-free framework that transforms visual content into textual descriptions to improve text-to-visual retrieval
+- A training-free framework that transforms visual content into textual descriptions
+- A generative question-answer paradigm to improve discriminative task
 
 </div>
 </div>
