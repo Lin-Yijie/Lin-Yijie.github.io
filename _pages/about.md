@@ -63,7 +63,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 <div class='paper-box-text' markdown="1">
 
 
-[<em>**Arxiv’25**</em>] [LLaVA-ReID: Selective Multi-image Questioner
+[<em>**ICML’25**</em>] [LLaVA-ReID: Selective Multi-image Questioner
 for Interactive Person Re-Identification](https://arxiv.org/pdf/2504.10174) \\
 Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi Peng<sup>†</sup>
 
@@ -81,6 +81,20 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 
 
 - Introduce the first dialogue-based person re-identification task.
+
+</div>
+</div>
+
+
+[<em>**ICML'25**</em>] [Visual Abstraction: A Plug-and-Play Approach for Text-Visual Retrieval](https://github.com/Lin-Yijie/Lin-Yijie.github.io/blob/main/images/papers/2025-ICML-VISA.pdf), Guofeng Ding, Yiding Lu, Peng Hu, Mouxing Yang, **Yijie Lin**<sup>†</sup>, Xi Peng<sup>†</sup>
+
+<a href="https://github.com/XLearning-SCU/2025-ICML-VISA"><strong>Code</strong></a>
+<!-- \| -->
+<!-- <a href="https://github.com/XLearning-SCU/2024-ICLR-Norton"><strong>Code</strong></a> -->
+[![](https://img.shields.io/github/stars/XLearning-SCU/2025-ICML-VISA?style=social&label=Stars)](https://github.com/XLearning-SCU/2025-ICML-VISA)
+
+
+- A training-free framework that transforms visual content into textual descriptions to improve text-to-visual retrieval
 
 </div>
 </div>
@@ -204,7 +218,6 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 <a href="https://github.com/XLearning-SCU/2022-TPAMI-DCP"><strong>Code</strong></a> -->
 
 
-- [<em>**ICML'25**</em>] [Visual Abstraction: A Plug-and-Play Approach for Text-Visual Retrieval](https://github.com/Lin-Yijie/Lin-Yijie.github.io/blob/main/images/papers/2025-ICML-VISA.pdf), Guofeng Ding, Yiding Lu, Peng Hu, Mouxing Yang, **Yijie Lin**<sup>†</sup>, Xi Peng<sup>†</sup>
 
 
 - [<em>**Nature Communications'25**</em>] [MetaQ: fast, scalable and accurate metacell inference via single-cell quantization](https://www.nature.com/articles/s41467-025-56424-6.pdf), Yunfan Li, Hancong Li, **Yijie Lin**, Dan Zhang, Dezhong Peng, Xiting Liu, Jie Xie, Peng Hu, Lu Chen,  Han Luo, Xi Peng
