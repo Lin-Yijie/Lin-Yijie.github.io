@@ -59,7 +59,7 @@ I am currently seeking postdoctoral opportunities. If you have any advice or are
 <div class='paper-box'>
 <div class='paper-box-image'><div>
 <!-- <div class="badge">ICLR 2024</div> -->
-<img src='images/papers/llava-reid.jpg' alt="sym" width="100%"></div></div>
+<img src='assets/papers/llava-reid.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 
@@ -88,7 +88,7 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 
 <div class='paper-box'>
 <div class='paper-box-image'><div>
-<img src='images/papers/visa.jpg' alt="sym" width="100%"></div></div>
+<img src='assets/papers/visa.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**ICML'25**</em>] [Visual Abstraction: A Plug-and-Play Approach for Text-Visual Retrieval](https://github.com/Lin-Yijie/Lin-Yijie.github.io/blob/main/assets/papers/2025-ICML-VISA.pdf), Guofeng Ding, Yiding Lu, Peng Hu, Mouxing Yang, **Yijie Lin**<sup>†</sup>, Xi Peng<sup>†</sup>
