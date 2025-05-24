@@ -141,7 +141,7 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 <!-- <strong><span class='show_paper_citations' data='KXKVYHsAAAAJ:Y0pCki6q_DkC'></span></strong> -->
 
 
-- Reveal multi-granularity noisy correspondence problem in long-term temporal modeling.
+- Reveal multi-granularity noisy correspondence in long-term temporal modeling.
 
 - Propose an efficient and robust video-language pre-training method.
 
