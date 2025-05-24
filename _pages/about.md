@@ -86,6 +86,11 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 </div>
 
 
+<div class='paper-box'>
+<div class='paper-box-image'><div>
+<img src='images/papers/visa.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
 [<em>**ICML'25**</em>] [Visual Abstraction: A Plug-and-Play Approach for Text-Visual Retrieval](https://github.com/Lin-Yijie/Lin-Yijie.github.io/blob/main/images/papers/2025-ICML-VISA.pdf), Guofeng Ding, Yiding Lu, Peng Hu, Mouxing Yang, **Yijie Lin**<sup>†</sup>, Xi Peng<sup>†</sup>
 
 <a href="https://github.com/XLearning-SCU/2025-ICML-VISA"><strong>Code</strong></a>
