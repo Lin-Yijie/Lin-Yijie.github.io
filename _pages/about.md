@@ -93,10 +93,10 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 
 [<em>**ICML'25**</em>] [Visual Abstraction: A Plug-and-Play Approach for Text-Visual Retrieval](https://github.com/Lin-Yijie/Lin-Yijie.github.io/blob/main/assets/papers/2025-ICML-VISA.pdf), Guofeng Ding, Yiding Lu, Peng Hu, Mouxing Yang, **Yijie Lin**<sup>†</sup>, Xi Peng<sup>†</sup>
 
-<a href="https://github.com/XLearning-SCU/2025-ICML-VISA"><strong>Code</strong></a>
+<a href="https://github.com/XLearning-SCU/2025-ICML-VISA"><strong>Code</strong></a> (Coming soon)
 <!-- \| -->
 <!-- <a href="https://github.com/XLearning-SCU/2024-ICLR-Norton"><strong>Code</strong></a> -->
-[![](https://img.shields.io/github/stars/XLearning-SCU/2025-ICML-VISA?style=social&label=Stars)](https://github.com/XLearning-SCU/2025-ICML-VISA)
+<!-- [![](https://img.shields.io/github/stars/XLearning-SCU/2025-ICML-VISA?style=social&label=Stars)](https://github.com/XLearning-SCU/2025-ICML-VISA) -->
 
 
 - Transform visual content into textual descriptions in a training-free manner
