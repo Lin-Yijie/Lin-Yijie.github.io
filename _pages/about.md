@@ -87,8 +87,8 @@ Yiding Lu, Mouxing Yang, Dezhong Peng, Peng Hu, **Yijie Lin**<sup>†</sup>, Xi 
 
 
 <div class='paper-box'>
-<div class='paper-box-image'><div>
-<img src='assets/papers/visa.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-image'>
+<img src='assets/papers/visa.jpg' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
 [<em>**ICML'25**</em>] [Visual Abstraction: A Plug-and-Play Approach for Text-Visual Retrieval](https://pengxi.me/wp-content/uploads/2025/05/2025ICML.pdf) \\
