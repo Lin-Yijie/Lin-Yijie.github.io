@@ -70,12 +70,11 @@
     // exceed medium using padding
     @include breakpoint($medium) {
         .paper-box-image{
-            margin-left: auto; 
-            justify-content: flex-end;
-            // justify-content: left;
+            justify-content: left;
             // padding-bottom: 0.5em;
             min-width: 200px;
-            max-width: 40%;
+            flex: 0 0 40%;
+            // max-width: 40%;
             order: 2;
         }
         
@@ -83,6 +82,7 @@
             justify-content: left;
             // padding-top: 0.5em;
             padding-right: 1em;
+            flex: 0 0 60%;
             max-width: 60%;
             order: 1;
         }
