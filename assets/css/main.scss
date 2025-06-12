@@ -51,12 +51,16 @@
     
 
     .paper-box-image{
-        justify-content: flex-end; // 设置右对齐
-        align-items: center;
+        justify-content: center;
         display: flex;
         width: 100%;
         order: 2;
+        > div {
+        margin-left: auto;
+        max-width: 400px;
+        }
         img {
+            width: auto;
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
@@ -71,8 +75,7 @@
     // exceed medium using padding
     @include breakpoint($medium) {
         .paper-box-image{
-            // justify-content: left;
-            justify-content: flex-end;
+            justify-content: left;
             // padding-bottom: 0.5em;
             min-width: 200px;
             max-width: 40%;
