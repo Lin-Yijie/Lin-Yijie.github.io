@@ -51,7 +51,8 @@
     
 
     .paper-box-image{
-        justify-content: center;
+        justify-content: flex-end; // 设置右对齐
+        align-items: center;
         display: flex;
         width: 100%;
         order: 2;
